@@ -1,6 +1,8 @@
 export CPPFLAGS=-I/opt/X11/include
 
-export PS1="\[\033[1;30m\]\h:\W \u\$ \[\033[0m\]"
+if [[ $SHELL == "/bin/bash" ]]; then
+	export PS1="\[\033[1;30m\]\h:\W \u\$ \[\033[0m\]"
+fi
 
 # HISTORY FILE SIZE
 HISTFILESIZE=1000000000

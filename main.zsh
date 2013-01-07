@@ -1,8 +1,9 @@
 #this is the main dotfile loader
 # in the future 
 directory=~/dotfiles/
-# SHELL=/bin/bash
 SHELL=/usr/local/bin/zsh #current shell
+
+
 
 source $directory/paths.sh  #general path config
 source $directory/config.sh  #general system configuration
