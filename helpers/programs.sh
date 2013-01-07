@@ -1,0 +1,16 @@
+alias chrome='open -a "Google Chrome"'
+chrome="Chrome"
+alias photoshop='open -a "Adobe Photoshop CS5"'
+photoshop="Adobe Photoshop CS5"
+alias firefox='open -a "FireFox"'
+firefox="FireFox"
+alias activity_monitor='open -a "Activity Monitor"'
+activity_monitor="Activity Monitor"
+alias mail='open -a Mail'
+mail="Mail"
+alias safari='open -a Safari'
+safari="Safari"
+alias pdf="open -a Preview"
+pdf="open -a Preview"
+alias transmission="open -a Transmission"
+transmission='open -a Transmission'
