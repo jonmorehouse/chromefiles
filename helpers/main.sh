@@ -1,3 +1,4 @@
-
 # include the global helpers 
-source global
+directory=~/dotfiles/helpers/
+
+source $directory/global.sh
