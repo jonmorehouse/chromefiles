@@ -7,3 +7,11 @@
 	
    excludesfile = /Users/MorehouseJ09/dotfiles/config/gitignore
 
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+	
