@@ -1,0 +1,9 @@
+[user]
+	name = Jon Morehouse
+	email = morehousej09@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	
+   excludesfile = /Users/MorehouseJ09/dotfiles/config/gitignore
+
