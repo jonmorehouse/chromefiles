@@ -1,0 +1,8 @@
+[user]
+	name = MorehouseJ09
+	email = morehousej09@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = subl
+	excludesfile = /Users/MorehouseJ09/.git_settings/gitignore_global

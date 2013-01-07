@@ -1,2 +1,4 @@
 personal.sh
 temp.sh
+config/git/*
+config/s3cfg
