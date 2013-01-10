@@ -10,7 +10,7 @@ HISTSIZE=1000000
 
 # SYSTEM STUFF
 EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2.app'
-SHELL=/bin/bash
+
 
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

@@ -2,7 +2,7 @@
 # in the future 
 directory=~/dotfiles/
 # SHELL=/bin/bash
-SHELL=/usr/local/bin/zsh #current shell
+
 
 source $directory/paths.sh  #general path config
 source $directory/config.sh  #general system configuration
@@ -14,3 +14,7 @@ source $directory/personal.sh  #these are sshs, passwords, logins etc THIS SHOUL
 source $directory/programs/main.sh #these are installed programs that I actually have installed. Longer shell scripts etc
 source $directory/helpers/main.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

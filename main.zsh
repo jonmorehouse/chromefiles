@@ -2,13 +2,15 @@
 # in the future 
 directory=~/dotfiles/
 SHELL=/usr/local/bin/zsh #current shell
+reload='source ~/dotfiles/main.zsh'
 
+HIST_VERIFY="false"
+unsetopt correct_all
 
 
 source $directory/paths.sh  #general path config
 source $directory/config.sh  #general system configuration
 
- 
 # load in custom shortcuts etc
 source $directory/directories.sh #include the proper directory shortcuts I have configured
 source $directory/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED
