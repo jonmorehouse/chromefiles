@@ -14,11 +14,14 @@ function path {
 		_path="`pwd`"
 
 	else
-		_path="`pwd`/${1}"
+		_path="`pwd`/$1"
 	fi
 
 	echo "${_path}"
 }
+
+
+
 
 # need to listen to directory changes -- not sure how this can be accomplished
 function cd {
@@ -32,4 +35,6 @@ function cd {
 		echo "Source Loaded."
 	fi
 }
+
+alias unmount='diskutil unmountDisk ${1} && diskutil eject ${1}'
 
