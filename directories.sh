@@ -1,6 +1,5 @@
 # basic navigation helpers
 alias ~='cd ~'
-alias ~='cd ~'
 alias .='cd ..'
 alias ..='cd ../..'
 alias ...='cd ../../..'
@@ -31,6 +30,8 @@ alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
 alias testing_environments='general_development && cd testing_environments/'
 alias global_modules='general_development && cd modules'
 alias notes='general_development && cd notes/'
+alias hacking='/Users/MorehouseJ09/Documents/general_development/hacking'
+alias cheatsheets='/Users/MorehouseJ09/Documents/general_development/cheatsheets'
 
 
 # installation directories
@@ -52,4 +53,4 @@ alias prospero='production_development && cd prospero/current'
 alias ovai='production_development && cd ovai/'
 alias momentum='cd /Users/MorehouseJ09/Documents/production_development/momentum/'
 alias _rails='cd /Users/MorehouseJ09/Documents/general_development/testing_environments/ruby/'
-
+alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'

@@ -5,3 +5,5 @@ directory=~/dotfiles/helpers/
 
 
 source $directory/global.sh
+source $directory/functions.sh
+source $directory/tmux.sh
