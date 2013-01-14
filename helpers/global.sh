@@ -10,8 +10,6 @@ alias html_2_pdf='wkhtmltopdf'
 # remove the sudo privileges
 alias kill_sudo='sudo -K'
 
-# unmount disk!
-alias unmount='diskutil unmountDisk ${1} && diskutil eject ${1}'
 # restart nginx
 alias nginx.restart='nginx -s stop && nginx'
 

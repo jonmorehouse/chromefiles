@@ -6,7 +6,6 @@ directory=~/dotfiles/
 
 source $directory/paths.sh  #general path config
 source $directory/config.sh  #general system configuration
-
  
 # load in custom shortcuts etc
 source $directory/directories.sh #include the proper directory shortcuts I have configured
