@@ -1,3 +1,5 @@
+# find . -type f \( ! -iname "*.md" \) -exec mv {} {}.sh \; //one liner to find based on an exclude regex
+
 # general one-liners
 alias export_display='export DISPLAY=:0'
 alias simple_server='python -m SimpleHTTPServer'
