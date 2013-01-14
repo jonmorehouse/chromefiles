@@ -5,8 +5,8 @@ directory=~/dotfiles/helpers/
 
 
 
-source $directory/programs.sh
-source $directory/global.sh
-source $directory/functions.sh
-source $directory/tmux.sh
-source $directory/ubuntu_stuff.sh
+load $directory/programs.sh
+load $directory/global.sh
+load $directory/functions.sh
+load $directory/tmux.sh
+load $directory/ubuntu_stuff.sh
