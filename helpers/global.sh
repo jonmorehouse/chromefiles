@@ -16,21 +16,18 @@ alias kill_sudo='sudo -K'
 alias nginx.restart='nginx -s stop && nginx'
 alias nginx.path='cd /usr/local/nginx/'
 
+# apache stuff
+alias apache.restart='sudo apachectl restart'
+alias apache.path='cd /usr/local/apache2'
+
 # vlc helper for acer!
 alias vlc='vlc -I rc'
+alias clear.logs='echo > /usr/local/apache2/logs/access_log && echo > /usr/local/apache2/logs/error_log && echo > /usr/local/nginx/logs/error.log && echo > /usr/local/nginx/logs/access.log'
 
 # open port
 
 # forward port
 
-# clear dns locally
-alias clear_dns='sudo killall -HUP mDNSResponder'
-
-# show which listeners on the machine
-alias listeners='lsof -i -n | egrep "COMMAND|LISTEN"'
-
-# server information
-alias nmap='sudo nmap ${1} -O'
 
 # alias show_packages='dpkg -l | awk \' { print $2 }\''
 
