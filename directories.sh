@@ -54,3 +54,10 @@ alias ovai='production_development && cd ovai/'
 alias momentum='cd /Users/MorehouseJ09/Documents/production_development/momentum/'
 alias _rails='cd /Users/MorehouseJ09/Documents/general_development/testing_environments/ruby/'
 alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'
+alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
+alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flash_quest_api'
+
+
+
+
+
