@@ -18,6 +18,7 @@ alias picture='cd ~/Pictures'
 alias wd160='cd /Volumes/WD160/'
 alias work='cd ~/Documents/work'
 alias startups='cd ~/Documents/start_ups'
+alias temp='cd ~/Documents/temp'
 
 
 # code specific files- scripts, programs, project roots etc
