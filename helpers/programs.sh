@@ -12,4 +12,4 @@ alias safari='open -a Safari'
 safari="Safari"
 alias transmission="open -a Transmission"
 transmission='open -a Transmission'
-preview='open -a "Preview"'
+alias preview='open -a "Preview"'
