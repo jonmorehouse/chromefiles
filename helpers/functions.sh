@@ -33,6 +33,18 @@ function eject {
 	diskutil eject $1
 }
 
+function power {
+
+	# /usr/sbin/ioreg -l | awk 'BEGIN{a=0;b=0} END{printf("HELLO WORLD")}' 
+
+	# ' "Max Capacity" {a=$5;next}'
+	# /usr/sbin/ioreg -l | awk 'BEGIN{a=0;b=0}
+	# $0 ~ "MaxCapacity" {a=$5;next}
+	# $0 ~ "CurrentCapacity" {b=$5;nextfile}
+	# END{printf("%.2f%%", b/a * 100)}'
+
+}
+
 
 
 
