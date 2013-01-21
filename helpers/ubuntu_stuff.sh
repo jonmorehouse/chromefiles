@@ -12,3 +12,5 @@ function delete_drive {
 	diskutil eraseDisk HFS+ newdisk $1
 
 }
+
+
