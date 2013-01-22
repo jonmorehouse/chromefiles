@@ -45,23 +45,13 @@ alias cellar='cd /usr/local/Cellar'
 # php 
 
 
-# Framework specific nav helpers
-alias view='cd application/views/'
-alias model='cd application/models'
-alias controller='cd application/controllers'
-alias library='cd application/libraries'
-
-
 # Projects I'm currently working on
-alias prospero='production_development && cd prospero/current'
-alias ovai='production_development && cd ovai/'
-alias momentum='cd /Users/MorehouseJ09/Documents/production_development/momentum/'
-alias _rails='cd /Users/MorehouseJ09/Documents/general_development/testing_environments/ruby/'
+alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
 alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flash_quest_api'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
-
+alias chilliwack='cd /Users/MorehouseJ09/Documents/production_development/chilliwack'
 
 
