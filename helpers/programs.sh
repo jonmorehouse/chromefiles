@@ -13,3 +13,7 @@ safari="Safari"
 alias transmission="open -a Transmission"
 transmission='open -a Transmission'
 alias preview='open -a "Preview"'
+pages='open -a "Pages"'
+alias pages='${pages}'
+
+alias sublime.restart='killall "Sublime Text 2" && open -a "Sublime Text 2"'

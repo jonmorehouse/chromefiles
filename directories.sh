@@ -52,6 +52,6 @@ alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
 alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flash_quest_api'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
-alias chilliwack='cd /Users/MorehouseJ09/Documents/production_development/chilliwack'
+alias campground='cd /Users/MorehouseJ09/Documents/production_development/chilliwack/current'
 
 
