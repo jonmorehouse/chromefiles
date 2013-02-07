@@ -20,6 +20,8 @@ alias work='cd ~/Documents/work'
 alias startups='cd ~/Documents/start_ups'
 alias temp='cd ~/Documents/temp'
 alias blogs='cd /Users/MorehouseJ09/Documents/general_development/blogs'
+alias courses='cd /Users/MorehouseJ09/Documents/courses/'
+
 
 
 # code specific files- scripts, programs, project roots etc
@@ -46,6 +48,7 @@ alias cellar='cd /usr/local/Cellar'
 
 
 # Projects I'm currently working on
+alias business='cd /Users/MorehouseJ09/Documents/production_development/flashquest_business'
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
@@ -53,5 +56,5 @@ alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flash_
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
 alias campground='cd /Users/MorehouseJ09/Documents/production_development/chilliwack/current'
-
+alias build='cd /Users/MorehouseJ09/Documents/programs/node/prospero_build'
 
