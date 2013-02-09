@@ -28,4 +28,4 @@ load $directory/helpers/main.sh #these are one liners -- generally will not have
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias reload='load ~/dotfiles/main.zsh'
+alias reload='load ~/dotfiles/main.zsh && cd .'
