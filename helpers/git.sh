@@ -34,6 +34,7 @@ function git.merge {
 	# now that we know that these are two valid branchs to be merged etc, we can go forth
 	git co "$switchBranch"
 	git merge "$branch"
+	git push origin master
 	git co "$branch"
 
 }
