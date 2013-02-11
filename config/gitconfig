@@ -6,6 +6,7 @@
 [core]
 	
    excludesfile = /Users/MorehouseJ09/dotfiles/config/gitignore
+	editor = sublime
 
 [alias]
   st = status
@@ -17,4 +18,8 @@
 	
 [github]
 	user = MorehouseJ09
-	password = trojans2013
+	password = !security find-generic-password -gs github.password -w | tr -d '\n'
+[push]
+	default = matching
+[color]
+	ui = true
