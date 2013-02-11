@@ -5,6 +5,11 @@ SHELL=/usr/local/bin/zsh #current shell
 
 HIST_VERIFY="false"
 unsetopt correct_all
+bindkey -v
+
+
+# this is important -- substituting the git command to use hub!
+alias git='hub'
 
 function load {
 
@@ -19,7 +24,7 @@ function load {
 
 load $directory/paths.sh  #general path config
 load $directory/config.sh  #general system configuration
-
+load $directory/config/auto_completions.zsh #load in zsh auto completions
 # load in custom shortcuts etc
 load $directory/directories.sh #include the proper directory shortcuts I have configured
 load $directory/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED

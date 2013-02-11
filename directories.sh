@@ -59,3 +59,11 @@ alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
 alias campground='cd /Users/MorehouseJ09/Documents/production_development/chilliwack/current'
 alias build='cd /Users/MorehouseJ09/Documents/programs/node/prospero_build'
 
+# course shortcuts
+alias course.math="cd /Users/MorehouseJ09/Documents/courses/math_225"
+alias course.discrete="cd /Users/MorehouseJ09/Documents/courses/csci_271"
+alias course.ee="cd /Users/MorehouseJ09/Documents/courses/ee_101"
+alias course.cpp="cd /Users/MorehouseJ09/Documents/courses/itp_499"
+alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
+
+
