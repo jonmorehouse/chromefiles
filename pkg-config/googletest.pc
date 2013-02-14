@@ -1,0 +1,12 @@
+
+prefix=/Users/MorehouseJ09/Documents/general_development/public_code/google_test
+
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: googletest
+Description: GoogleTest Library
+Version: 1.6.0
+Cflags: -I${includedir}/googletest
+Libs: -L${libdir} -lgoogletest
