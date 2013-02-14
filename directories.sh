@@ -35,6 +35,7 @@ alias global_modules='general_development && cd modules'
 alias notes='general_development && cd notes/'
 alias hacking='/Users/MorehouseJ09/Documents/general_development/hacking'
 alias cheatsheets='/Users/MorehouseJ09/Documents/general_development/cheatsheets'
+alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_code'
 
 # individual program types
 alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
@@ -67,3 +68,6 @@ alias course.cpp="cd /Users/MorehouseJ09/Documents/courses/itp_499"
 alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 
 
+# temp aliases
+alias assignment='course.graphics && cd assignments/assignment_1'
+alias graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
