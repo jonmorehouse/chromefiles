@@ -1,5 +1,5 @@
 
-prefix=/Users/MorehouseJ09/Documents/general_development/public_code/google_test
+prefix=/Users/MorehouseJ09/Documents/general_development/public_code/googletest
 
 exec_prefix=${prefix}
 includedir=${prefix}/include
