@@ -8,5 +8,5 @@ libdir=${exec_prefix}/lib
 Name: googletest
 Description: GoogleTest Library
 Version: 1.6.0
-Cflags: -I${includedir}/googlemock
+Cflags: -I${includedir}
 Libs: -L${libdir} -lgooglemock

@@ -41,7 +41,8 @@ alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_c
 alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
 alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
 alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby'
-
+alias go_scripts='cd ~/Documents/programs/go'
+alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
 alias cellar='cd /usr/local/Cellar'
 # apache
@@ -71,3 +72,4 @@ alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 # temp aliases
 alias assignment='course.graphics && cd assignments/assignment_1'
 alias graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
+alias boilerplate='cd /Users/MorehouseJ09/Documents/programs/cpp/cpp_boilerplate'
