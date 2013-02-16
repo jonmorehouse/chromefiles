@@ -1,7 +1,6 @@
 alias status='git status --short --branch'
-alias pull='git pull -u origin' #pull down origin
 alias commit='git commit -a -m' #initialize commit
-
+alias push='git push'
 
 function git.merge {
 
