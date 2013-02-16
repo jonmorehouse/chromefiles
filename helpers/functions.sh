@@ -23,6 +23,8 @@ function cd {
 		source .shell_config
 		echo "Source Loaded."
 	fi
+
+	ls
 }
 
 
