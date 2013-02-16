@@ -8,3 +8,22 @@ alias "tmux.kill"='tmux kill-window -t ${1}'
 # alias "tmux.send"="tmux send-keys -t ${1} 'ls' C-m"
 
 # tmux list-windows -t $session|cut -d: -f1|xargs -I{} tmux send-keys -t $session:{} $message
+
+# copy tmux buffer to mac buffer
+function tmux.copy {
+
+	if test -n "`tmux showb 2> /dev/null`"; then
+		tmux saveb -|pbcopy && tmux deleteb
+	fi
+}
+
+function tmux.copy_poll {
+
+	while true
+	do
+		tmux.copy
+		sleep 0.5
+	done	
+
+
+}
