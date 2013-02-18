@@ -15,5 +15,8 @@ PKG_CONFIG_PATH=/usr/local/jansson/
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p362@global/bin
+
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
