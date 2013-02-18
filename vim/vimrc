@@ -22,6 +22,8 @@ set hidden
 "don't wrap lines
 set nowrap
 
+"Set the vim clipboard
+set clipboard=unnamed
 set autoindent
 set copyindent
 "always show the line numbers
