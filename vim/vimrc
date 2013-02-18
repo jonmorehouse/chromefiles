@@ -1,0 +1,44 @@
+" initialize pathogen to help with bundles
+execute pathogen#infect()
+
+" support syntax coloring
+syntax on
+
+"help with file types
+filetype plugin indent on
+
+" enable nerdtree support each time we initialize vim
+"autocmd vimenter * if !argc() | NERDTree | endif
+
+syntax enable
+"set background=dark
+let g:solarized_termcolors=256
+"colorscheme solarized
+
+"initialize vim settings
+" make buffers hide instead of close
+set hidden
+
+"don't wrap lines
+set nowrap
+
+set autoindent
+set copyindent
+"always show the line numbers
+set number
+"show matching parenthesis
+set showmatch
+set ignorecase
+set smartcase
+set smarttab
+set hlsearch
+set incsearch
+set history=1000
+set undolevels=1000
+set wildignore=*.swp,*.ds_store,*.pyc,*.class
+set title
+set visualbell
+set noerrorbells
+set nobackup
+set noswapfile
+
