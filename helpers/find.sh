@@ -11,3 +11,6 @@
 
 # find particular files and then pass to xargs
 # ~/Desktop $ find . -type f \( ! -name "*and*" ! -name ".ds*" \) -print0 | xargs -0 -I file sh -c "let z=$z+1 && echo $z"
+
+
+# find a word recursively from a directory

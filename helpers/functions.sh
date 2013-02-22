@@ -1,4 +1,3 @@
-
 # get the absolute path of a file
 function path {
 
@@ -10,6 +9,13 @@ function path {
 	fi
 
 	echo "${_path}"
+}
+
+# path.copy is directly dependent upon the path segment from above
+function pathc {
+
+	path ${1} | pbcopy
+			
 }
 
 # need to listen to directory changes -- not sure how this can be accomplished
