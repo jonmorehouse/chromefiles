@@ -1,5 +1,5 @@
 alias status='git status --short --branch'
-alias commit='git commit -m' #initialize commit
+alias commit='git commit' #initialize commit
 alias push='git push'
 
 function git.merge {
