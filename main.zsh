@@ -4,9 +4,10 @@ directory=~/dotfiles/
 SHELL=/usr/local/bin/zsh #current shell
 
 HIST_VERIFY="false"
+# stop all autocorrection
 unsetopt correct_all
+# set up the vim keyword mode for zsh
 bindkey -v
-
 
 # this is important -- substituting the git command to use hub!
 alias git='hub'
