@@ -8,3 +8,6 @@
 
 # find . -path ./.git -prune -o -type f -and -name "*.md" -print
 # find all files in a path that are not in the git directory and are a file that has the *.md ending
+
+# find particular files and then pass to xargs
+# ~/Desktop $ find . -type f \( ! -name "*and*" ! -name ".ds*" \) -print0 | xargs -0 -I file sh -c "let z=$z+1 && echo $z"
