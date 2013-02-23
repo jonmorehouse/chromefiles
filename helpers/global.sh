@@ -1,5 +1,3 @@
-# find . -type f \( ! -iname "*.md" \) -exec mv {} {}.sh \; //one liner to find based on an exclude regex
-
 # general one-liners
 alias export_display='export DISPLAY=:0'
 alias simple_server='python -m SimpleHTTPServer'
@@ -24,11 +22,7 @@ alias apache.path='cd /usr/local/apache2'
 alias vlc='vlc -I rc'
 alias clear.logs='echo > /usr/local/apache2/logs/access_log && echo > /usr/local/apache2/logs/error_log && echo > /usr/local/nginx/logs/error.log && echo > /usr/local/nginx/logs/access.log'
 
-# open port
-
-# forward port
-
 
 # alias show_packages='dpkg -l | awk \' { print $2 }\''
 
-
+alias and='&&'

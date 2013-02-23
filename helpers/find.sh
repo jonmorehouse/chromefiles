@@ -6,6 +6,7 @@
 # -o stands for or -- so we want to prune the path or print
 
 
+# find . -type f \( ! -iname "*.md" \) -exec mv {} {}.sh \; //one liner to find based on an exclude regex
 # find . -path ./.git -prune -o -type f -and -name "*.md" -print
 # find all files in a path that are not in the git directory and are a file that has the *.md ending
 
