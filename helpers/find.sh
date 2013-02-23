@@ -14,3 +14,4 @@
 
 
 # find a word recursively from a directory
+# grep -nr "search pattern" .

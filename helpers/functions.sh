@@ -18,6 +18,21 @@ function pathc {
 			
 }
 
+# this is useful in other commands that I want to store passwords in for etc
+function main_password {
+
+	security find-generic-password -gs main_password -w | tr -d '\n'	
+
+
+}
+
+# for my development machine, I have a keychain entry called local_password, grab it with this function
+function local_password {
+
+	security find-generic-password -gs local_password -w | tr -d '\n'
+
+}
+
 # need to listen to directory changes -- not sure how this can be accomplished
 function cd {
 	# check if the file exist and then will load the file

@@ -9,6 +9,7 @@
 	editor = sublime
 
 [alias]
+
   st = status
   ci = commit
   br = branch
