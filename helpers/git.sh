@@ -1,6 +1,10 @@
 alias status='git status --short --branch'
+alias co='git checkout'
+alias cim='git commit -a -m'
+alias ci='git commit'
 alias commit='git commit' #initialize commit
 alias push='git push'
+alias pu='git push'
 
 function git.merge {
 
