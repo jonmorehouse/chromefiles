@@ -51,11 +51,10 @@ alias cellar='cd /usr/local/Cellar'
 
 
 # Projects I'm currently working on
-alias business='cd /Users/MorehouseJ09/Documents/production_development/flashquest_business'
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
-alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flash_quest_api/current'
+alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flashquest/current'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
 alias campground='cd /Users/MorehouseJ09/Documents/production_development/chilliwack/current'
