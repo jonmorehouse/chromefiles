@@ -4,9 +4,9 @@
 [submodule "vim/bundle/Command-T"]
 	path = vim/bundle/Command-T
 	url = git://github.com/wincent/Command-T.git
-[submodule "vim/bundle/YankRing"]
-	path = vim/bundle/YankRing
-	url = git://github.com/vim-scripts/YankRing.vim.git
+# [submodule "vim/bundle/YankRing"]
+# 	path = vim/bundle/YankRing
+# 	url = git://github.com/vim-scripts/YankRing.vim.git
 [submodule "vim/bundle/localrc"]
 	path = vim/bundle/localrc
 	url = git://github.com/vim-scripts/localrc.vim.git
