@@ -5,8 +5,8 @@ alias ci='git commit'
 alias commit='git commit' #initialize commit
 alias push='git push'
 alias pu='git push'
-# numebr of comimts = git shortlog -s -n
-
+# number of comimts = git shortlog -s -n
+# git ls-tree --name-only HEAD
 
 function git.merge {
 
