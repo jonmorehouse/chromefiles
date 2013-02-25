@@ -5,9 +5,10 @@ alias ci='git commit'
 alias commit='git commit' #initialize commit
 alias push='git push'
 alias pu='git push'
+# numebr of comimts = git shortlog -s -n
+
 
 function git.merge {
-
 
 	# functionality
 	# 1.) if no branch given grab the current branch
