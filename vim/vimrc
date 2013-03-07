@@ -13,7 +13,7 @@ filetype plugin indent on
 "autocmd vimenter * if !argc() | NERDTree | endif
 
 syntax enable
-"set background=dark
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 colors solarized
