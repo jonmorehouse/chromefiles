@@ -70,6 +70,5 @@ alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 
 # temp aliases
 alias graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
-alias boilerplate='cd /Users/MorehouseJ09/Documents/programs/cpp/cpp_boilerplate'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias assignment='/Users/MorehouseJ09/Documents/courses/csci_480/assignments/assignment_2'
