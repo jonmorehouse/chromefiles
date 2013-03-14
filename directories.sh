@@ -22,6 +22,7 @@ alias startups='cd ~/Documents/start_ups'
 alias temp='cd ~/Documents/temp'
 alias blogs='cd /Users/MorehouseJ09/Documents/general_development/blogs'
 alias courses='cd /Users/MorehouseJ09/Documents/courses/'
+alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
 
 
 
