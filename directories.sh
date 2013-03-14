@@ -56,9 +56,7 @@ alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/luci
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
 alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flashquest/current'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
-alias github_api='cd /Users/MorehouseJ09/Documents/programs/python/github_api'
-alias campground='cd /Users/MorehouseJ09/Documents/production_development/chilliwack/current'
-alias build='cd /Users/MorehouseJ09/Documents/programs/node/prospero_build'
+alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 
 # course shortcuts
 alias course.math="cd /Users/MorehouseJ09/Documents/courses/math_225"
