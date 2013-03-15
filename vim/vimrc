@@ -46,4 +46,4 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
-
+"Set the file type live ... :set filetype=cpp
