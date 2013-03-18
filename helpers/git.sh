@@ -8,6 +8,7 @@ alias pu='git push'
 # number of comimts = git shortlog -s -n
 # git ls-tree --name-only HEAD
 # git submodule update --recursive
+#git submodule update --init
 
 function git.merge {
 
