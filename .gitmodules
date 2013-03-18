@@ -28,3 +28,6 @@
 [submodule "vim/bundle/monokai"]
 	path = vim/bundle/monokai
 	url = https://github.com/sickill/vim-monokai.git
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
