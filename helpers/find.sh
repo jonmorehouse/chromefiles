@@ -17,3 +17,9 @@
 # find a word recursively from a directory
 # grep -nr "search pattern" .
 
+# great examples of advanced sed / awk one-liners etc ....
+# http://www.catonmat.net/blog/awk-one-liners-explained-part-one/
+# awk for loop example ...
+# for i in *
+#	echo $i | awk '{ for (i = 4; i <= NF; i++) s=s"_"$i; print s}'
+
