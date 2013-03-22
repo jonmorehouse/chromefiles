@@ -1,0 +1,28 @@
+require "rubygems"
+require "wirble"
+require "irb"
+
+# install and use the wirble gem, it does a lot of neat stuff
+Wirble.init
+Wirble.colorize
+# the default colors suck, mod to use your own
+colors = Wirble::Colorize.colors.merge({
+   # set the comma color to blue
+   :comma => :green,
+   :refers => :green,
+})
+Wirble::Colorize.colors = colors
+
+# to handle mistyping - "did you mean ..."
+require 'guessmethod'
+
+class Object
+  # what methods are ghere that are not present on basic objects?
+  def interesting_methods
+    (self.methods - Object.new.methods).sort
+  end
+
+   def which_method(method_name)
+      self.method(method_name.to_sym)
+   end
+end
