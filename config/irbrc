@@ -1,28 +1,32 @@
-require "rubygems"
-require "wirble"
-require "irb"
-
-# install and use the wirble gem, it does a lot of neat stuff
-Wirble.init
-Wirble.colorize
-# the default colors suck, mod to use your own
-colors = Wirble::Colorize.colors.merge({
-   # set the comma color to blue
-   :comma => :green,
-   :refers => :green,
-})
-Wirble::Colorize.colors = colors
-
-# to handle mistyping - "did you mean ..."
-require 'guessmethod'
-
-class Object
-  # what methods are ghere that are not present on basic objects?
-  def interesting_methods
-    (self.methods - Object.new.methods).sort
+# load a railsrc file whenever we are in a rails environment!
+railsrc_path = File.expand_path('~/.railsrc')
+if ( ENV['RAILS_ENV'] || defined? Rails ) && File.exist?( railsrc_path )
+  begin
+    load railsrc_path
+  rescue Exception
+    warn "Could not load: #{ railsrc_path }" # because of $!.message
   end
+end
 
-   def which_method(method_name)
-      self.method(method_name.to_sym)
-   end
+begin
+
+	# initialize some gems for irb environment
+	require "rubygems"
+	require "wirble"
+	require "irb"
+
+	# install and use the wirble gem, it does a lot of neat stuff
+	Wirble.init
+	Wirble.colorize
+	# the default colors suck, mod to use your own
+	colors = Wirble::Colorize.colors.merge({
+	   # set the comma color to blue
+	   :comma => :green,
+	   :refers => :green,
+	})
+	Wirble::Colorize.colors = colors
+
+# make sure all of our gems etc are loaded
+rescue LoadError => err
+	warn "Couldn't load irbrc gems properly"
 end
