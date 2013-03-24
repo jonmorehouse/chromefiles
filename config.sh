@@ -20,3 +20,6 @@ PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p362@global/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+# force tmux to try and load in the rvmrc file each time you create a new tmux window
+cd .
+
