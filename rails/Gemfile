@@ -43,6 +43,7 @@ gem 'cancan', '~> 1.6.9'
 # add rolify to help us define roles for our users etc
 gem 'rolify', '~> 3.2.0'
 
+gem 'amico'
 ####### ASSETS / FRONT END BASED GEMS #########
 #use haml templating
 gem 'haml', '4.0.0'

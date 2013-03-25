@@ -70,6 +70,7 @@ alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 # temp aliases
 alias graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
+alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 # alias assignment='/Users/MorehouseJ09/Documents/courses/csci_480/assignments/assignment_2'
 
 alias assignment='/Users/MorehouseJ09/Documents/courses/itp_499/assignments/assignment_2'
