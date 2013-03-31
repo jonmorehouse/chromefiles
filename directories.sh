@@ -29,6 +29,7 @@ alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
 # code specific files- scripts, programs, project roots etc
 alias programs='cd ~/Documents/programs'
 alias production_development='cd ~/Documents/production_development'
+alias media='cd ~/Documents/media'
 alias general_development='cd ~/Documents/general_development'
 alias helper_programs='cd ~/Documents/general_development/helper_programs'
 alias testing_environments='general_development && cd testing_environments/'
