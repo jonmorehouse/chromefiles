@@ -26,4 +26,5 @@ alias clear.logs='echo > /usr/local/apache2/logs/access_log && echo > /usr/local
 # alias show_packages='dpkg -l | awk \' { print $2 }\''
 alias g++4='/usr/local/gcc/usr/local/bin/g++'
 #g++4='/usr/local/gcc/usr/local/bin/g++'
+alias y='yeoman'
 
