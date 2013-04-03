@@ -23,6 +23,7 @@ alias temp='cd ~/Documents/temp'
 alias blogs='cd /Users/MorehouseJ09/Documents/general_development/blogs'
 alias courses='cd /Users/MorehouseJ09/Documents/courses/'
 alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
+alias media='cd ~/Documents/media'
 
 
 
