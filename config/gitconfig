@@ -6,7 +6,7 @@
 [core]
 	
    excludesfile = /Users/MorehouseJ09/dotfiles/config/gitignore
-	editor = sublime
+	editor = vim
 
 [alias]
 

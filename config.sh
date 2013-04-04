@@ -9,7 +9,8 @@ HISTFILESIZE=1000000000
 HISTSIZE=1000000
 
 # SYSTEM STUFF
-EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2.app'
+# EDITOR='/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2.app'
+EDITOR='vim'
 
 PKG_CONFIG_PATH=/usr/local/jansson/
 
