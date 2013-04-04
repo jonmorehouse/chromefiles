@@ -9,7 +9,11 @@ alias pu='git push'
 # git ls-tree --name-only HEAD
 # git submodule update --recursive
 #git submodule update --init
+# set up github editor default
+# git config --global core.editor "pico"
 
+
+# set up custom merge element
 function git.merge {
 
 	# functionality
