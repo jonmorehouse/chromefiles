@@ -47,6 +47,7 @@ alias go_scripts='cd ~/Documents/programs/go'
 alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
 alias cellar='cd /usr/local/Cellar'
+alias plugins='cd ~/Documents/programs/javascript/plugins'
 # apache
 # mysql
 # php 
