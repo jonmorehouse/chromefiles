@@ -14,6 +14,8 @@
 
 # reference = http://ask.metafilter.com/80862/how-split-a-string-in-bash 
 
+# quick extension to get extensions... assumes only 1 .
+# ext=${i#.*.*}
 
 
 
