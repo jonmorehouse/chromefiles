@@ -9,3 +9,11 @@ I'm assuming that the files that are running this are user-local and should thus
 Reference:
 
 	http://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
+
+
+Personal Notes:
+
+Make sure you run launchctl load -w .plist as the intiializer for the launchdameon
+Make sure you don't run as sudo, otherwise will expect root ownership
+
+
