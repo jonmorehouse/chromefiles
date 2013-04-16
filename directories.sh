@@ -76,4 +76,4 @@ alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 # alias assignment='/Users/MorehouseJ09/Documents/courses/csci_480/assignments/assignment_2'
 
 alias assignment='/Users/MorehouseJ09/Documents/courses/itp_499/assignments/assignment_2'
-
+alias api_test='/Users/MorehouseJ09/Documents/general_development/helper_programs/python/facebook_api_test'
