@@ -6,27 +6,21 @@
     <string>com.ipfw</string>
 
     <!--Initialize our port forwarding-->
-    <key>Program</key>
-    <string>ipfw</string>
-
     <key>ProgramArguments</key>
     <array>
+	<string>ipfw</string>
 	<string>add</string>
-    <string>100</string>
-    <string>fwd</string>
-    <string>127.0.0.1,8080</string>
-    <string>tcp</string>
-    <string>from</string>
-    <string>any</string>
-    <string>80</string>
-    <string>in</string>
+	<string>100</string>
+	<string>fwd</string>
+	<string>127.0.0.1,8080</string>
+	<string>tcp</string>
+	<string>from</string>
+	<string>any</string>
+	<string>80</string>
+	<string>in</string>
     </array>
 
-    <key>StandardOutPath</key>
-    <string>/Users/MorehouseJ09/desktop/output</string>
-
-    <key>StandardErrorPath</key>
-    <string>/Users/MorehouseJ09/desktop/error</string>
+    
 
 </dict>
 </plist>
