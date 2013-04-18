@@ -1,6 +1,12 @@
 Jon Morehouse's DotFiles Configuration
 =
 
+THIS DOCUMENTATION IS OUT OF DATE.
+
+** I'm working on this project daily and things seem to have gotten a bit sloppy. I'm going to rework the entire repo structure to keep this from being a catch-all**
+
+
+
 Overview
 =
 
