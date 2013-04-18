@@ -15,12 +15,12 @@ function load {
 }
 
 
-load $directory/paths.sh  #general path config
-load $directory/config.sh  #general system configuration
+load $directory/bash_config/paths.sh  #general path config
+load $directory/bash_config/config.sh  #general system configuration
  
 # load in custom shortcuts etc
-load $directory/directories.sh #include the proper directory shortcuts I have configured
-load $directory/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED
+load $directory/bash_config/directories.sh #include the proper directory shortcuts I have configured
+load $directory/bash_config/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED
 load $directory/programs/main.sh #these are installed programs that I actually have installed. Longer shell scripts etc
 load $directory/helpers/main.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
