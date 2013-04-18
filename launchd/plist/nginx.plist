@@ -3,21 +3,17 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>Test</string>
+    <string>com.nginx</string>
 
+    <!--Initialize our port forwarding-->
     <key>ProgramArguments</key>
     <array>
-	<string>/Users/MorehouseJ09/dotfiles/launchd/scripts/test.sh</string>
+	    <string>nginx</string>
     </array>
 
-    <key>StartInterval</key>
-    <integer>05</integer>
-
-    <key>StandardOutPath</key>
-    <string>/Users/MorehouseJ09/desktop/output</string>
-
-    <key>StandardErrorPath</key>
-    <string>/Users/MorehouseJ09/desktop/error</string>
+    <key>RunAtLoad</key>
+	<true/>
+    
 
 </dict>
 </plist>
