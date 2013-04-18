@@ -7,5 +7,7 @@ The purpose of this folder is to maintain my entire vim configuration for ease o
 Plugins
 =
 
-Pathogen
-Vi-Tunes
+Pathogen --
+Vi-Tunes -- itunes controller
+Fake-Clip -- not currently working .. should help with tmux/pbcopy etc clipboard issues
+Headlights -- helps list 

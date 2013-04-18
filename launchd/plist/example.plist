@@ -10,12 +10,20 @@
 	<string>/Users/MorehouseJ09/dotfiles/launchd/scripts/test.sh</string>
     </array>
 
-    <key>StartInterval</key>
-    <integer>05</integer>
+    <!--<key>StartInterval</key>-->
+    <!--<integer>05</integer>-->
 
+    <!-- run this item once when we load the script -->
+    <key>RunAtLoad</key>
+	<true/>
+    <key>OnLoad</key>
+        <true/>
+
+        <!-- declare a special output path -->
     <key>StandardOutPath</key>
     <string>/Users/MorehouseJ09/desktop/output</string>
 
+    <!-- declare a special error path -->
     <key>StandardErrorPath</key>
     <string>/Users/MorehouseJ09/desktop/error</string>
 

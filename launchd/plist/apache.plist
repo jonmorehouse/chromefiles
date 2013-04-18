@@ -3,12 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.nginx</string>
+    <string>com.apache</string>
 
     <!--Initialize our port forwarding-->
     <key>ProgramArguments</key>
     <array>
-	    <string>nginx</string>
+	    <string>apachectl</string>
+	    <string>start</string>
     </array>
 
     <key>RunAtLoad</key>

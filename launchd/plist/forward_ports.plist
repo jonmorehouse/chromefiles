@@ -3,12 +3,21 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.nginx</string>
+    <string>com.ipfw</string>
 
     <!--Initialize our port forwarding-->
     <key>ProgramArguments</key>
     <array>
-	    <string>nginx</string>
+	<string>ipfw</string>
+	<string>add</string>
+	<string>100</string>
+	<string>fwd</string>
+	<string>127.0.0.1,8080</string>
+	<string>tcp</string>
+	<string>from</string>
+	<string>any</string>
+	<string>80</string>
+	<string>in</string>
     </array>
 
     <key>RunAtLoad</key>
