@@ -37,3 +37,6 @@
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/plugin/fake-clip"]
+	path = vim/plugin/fake-clip
+	url = git://github.com/kana/vim-fakeclip.git
