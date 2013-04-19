@@ -11,6 +11,6 @@ link() {
 # loop through all of the files etc and 
 for file in $files
 do
-	echo $file	
+	link $file
 done
 
