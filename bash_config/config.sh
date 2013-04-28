@@ -16,7 +16,12 @@ PKG_CONFIG_PATH=/usr/local/jansson/
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+
+# add global gemset into the path
 PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p362@global/bin
+
+# add custom php installation into path
+PATH=$PATH:/usr/local/php/bin
 
 # now lets add my custom bin location for custom scripts etc to live!
 PATH=$PATH:$HOME/dotfiles/bin
