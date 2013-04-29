@@ -55,9 +55,9 @@ alias plugins='cd ~/Documents/programs/javascript/plugins'
 
 # Projects I'm currently working on
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
-alias lucid_appeal='cd /Users/MorehouseJ09/Documents/production_development/lucid_appeal/lucidappeal_cms'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
 alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flashquest/current'
+alias business='cd /Users/MorehouseJ09/Documents/production_development/business'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 
