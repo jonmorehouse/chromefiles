@@ -49,33 +49,20 @@ alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
 alias cellar='cd /usr/local/Cellar'
 alias plugins='cd ~/Documents/programs/javascript/plugins'
-# apache
-# mysql
-# php 
 
 
 # Projects I'm currently working on
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
-alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flashquest/current'
-alias quest='cd /Users/MorehouseJ09/Documents/production_development/flashquest/current'
-alias business='cd /Users/MorehouseJ09/Documents/production_development/business'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
-
-# course shortcuts
-alias course.math="cd /Users/MorehouseJ09/Documents/courses/math_225"
-alias course.discrete="cd /Users/MorehouseJ09/Documents/courses/csci_271"
-alias course.ee="cd /Users/MorehouseJ09/Documents/courses/ee_101"
-alias course.cpp="cd /Users/MorehouseJ09/Documents/courses/itp_499"
-alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
-
-
-# temp aliases
-alias graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
-# alias assignment='/Users/MorehouseJ09/Documents/courses/csci_480/assignments/assignment_2'
 
-alias assignment='/Users/MorehouseJ09/Documents/courses/itp_499/assignments/assignment_2'
-alias api_test='/Users/MorehouseJ09/Documents/general_development/helper_programs/python/facebook_api_test'
+# flashquest specific functionality
+alias quest='cd $HOME/Documents/production_development/flashquest'
+alias api='cd $HOME/Documents/production_development/flashquest/api'
+alias business='cd $HOME/Documents/production_development/flashquest/business'
+alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
+
+
