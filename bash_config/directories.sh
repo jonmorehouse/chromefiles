@@ -64,5 +64,6 @@ alias quest='cd $HOME/Documents/production_development/flashquest'
 alias api='cd $HOME/Documents/production_development/flashquest/api'
 alias business='cd $HOME/Documents/production_development/flashquest/business'
 alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
+alias socket='cd $HOME/Documents/production_development/flashquest/socket'
 
 
