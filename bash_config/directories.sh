@@ -48,27 +48,20 @@ alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
 alias cellar='cd /usr/local/Cellar'
 alias plugins='cd ~/Documents/programs/javascript/plugins'
-# apache
-# mysql
-# php 
 
 
 # Projects I'm currently working on
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias mumblr='cd /Users/MorehouseJ09/Documents/production_development/mumblr/'
-alias flashquest='cd /Users/MorehouseJ09/Documents/production_development/flashquest_api'
-alias quest='cd /Users/MorehouseJ09/Documents/production_development/flashquest_api'
-alias api='cd /Users/MorehouseJ09/Documents/production_development/flashquest_api'
-alias business='cd /Users/MorehouseJ09/Documents/production_development/flashquest_business'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 
-# course shortcuts
-alias course.math="cd /Users/MorehouseJ09/Documents/courses/math_225"
-alias course.discrete="cd /Users/MorehouseJ09/Documents/courses/csci_271"
-alias course.ee="cd /Users/MorehouseJ09/Documents/courses/ee_101"
-alias course.cpp="cd /Users/MorehouseJ09/Documents/courses/itp_499"
-alias course.graphics='cd /Users/MorehouseJ09/Documents/courses/csci_480'
+# flashquest specific functionality
+alias quest='cd $HOME/Documents/production_development/flashquest'
+alias api='cd $HOME/Documents/production_development/flashquest/api'
+alias business='cd $HOME/Documents/production_development/flashquest/business'
+alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
+
 
