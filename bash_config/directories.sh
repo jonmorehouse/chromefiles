@@ -61,6 +61,7 @@ alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 # flashquest specific functionality
 alias quest='cd $HOME/Documents/production_development/flashquest'
 alias api='cd $HOME/Documents/production_development/flashquest/api'
+alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
 alias business='cd $HOME/Documents/production_development/flashquest/business'
 alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
 alias socket='cd $HOME/Documents/production_development/flashquest/socket'
