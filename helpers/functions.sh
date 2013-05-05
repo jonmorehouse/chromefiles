@@ -37,7 +37,7 @@ function local_password {
 function cd {
 	# check if the file exist and then will load the file
 	builtin cd ${1} #move to the specified directory
-
+	
 	# now see if the file exists
 	if [[ -f ./.shell_config ]]; then
 		#statements
