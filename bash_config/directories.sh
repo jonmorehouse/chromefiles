@@ -48,6 +48,7 @@ alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
 alias cellar='cd /usr/local/Cellar'
 alias plugins='cd ~/Documents/programs/javascript/plugins'
+alias devops='cd $HOME/Documents/programs/devops'
 
 
 # Projects I'm currently working on
