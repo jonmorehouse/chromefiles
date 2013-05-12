@@ -68,3 +68,4 @@ alias notifications='cd $HOME/Documents/production_development/flashquest/notifi
 alias socket='cd $HOME/Documents/production_development/flashquest/socket'
 
 
+alias tapthere='cd $HOME/Documents/production_development/tapthere'
