@@ -69,3 +69,9 @@ alias socket='cd $HOME/Documents/production_development/flashquest/socket'
 
 
 alias tapthere='cd $HOME/Documents/production_development/tapthere'
+alias social='cd $HOME/Documents/production_development/social_stack'
+
+
+
+
+
