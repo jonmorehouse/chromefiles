@@ -12,3 +12,9 @@ def test
 	
 	puts "HELLO WORLD TEST ELEMENT"
 end
+
+
+
+--skip-test-unit 
+--skip-active-record
+--skip-javascript
