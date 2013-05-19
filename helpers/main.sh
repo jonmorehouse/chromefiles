@@ -1,5 +1,5 @@
 # include the global helpers 
-directory=~/dotfiles/helpers/
+directory=~/dotfiles/helpers
 
 # switch shell  -- chsh -s /usr/bin MorehouseJ09
 
