@@ -42,7 +42,7 @@ alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_c
 # individual program types
 alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
 alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
-alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby'
+alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby/scripts'
 alias go_scripts='cd ~/Documents/programs/go'
 alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
