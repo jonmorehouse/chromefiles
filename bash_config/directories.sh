@@ -68,10 +68,6 @@ alias notifications='cd $HOME/Documents/production_development/flashquest/notifi
 alias socket='cd $HOME/Documents/production_development/flashquest/socket'
 
 
+alias piggy='cd $HOME/Documents/production_development/piggy'
 alias tapthere='cd $HOME/Documents/production_development/tapthere'
 alias social='cd $HOME/Documents/production_development/stacksocial'
-
-
-
-
-
