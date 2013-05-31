@@ -33,20 +33,21 @@ function local_password {
 
 }
 
+# deactivate the cd function overwrite because it was messing up functionality with our application etc
 # need to listen to directory changes -- not sure how this can be accomplished
-function cd {
-	# check if the file exist and then will load the file
-	builtin cd ${1} #move to the specified directory
+# function cd {
+# 	# check if the file exist and then will load the file
+# 	builtin cd ${1} #move to the specified directory
 	
-	# now see if the file exists
-	if [[ -f ./.shell_config ]]; then
-		#statements
-		source .shell_config
-		echo "Source Loaded."
-	fi
+# 	# now see if the file exists
+# 	if [[ -f ./.shell_config ]]; then
+# 		#statements
+# 		source .shell_config
+# 		echo "Source Loaded."
+# 	fi
 
-	ls
-}
+# 	ls
+# }
 
 
 # unmount a disk

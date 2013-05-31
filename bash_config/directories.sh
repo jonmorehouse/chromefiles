@@ -43,7 +43,7 @@ alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_c
 # individual program types
 alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
 alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
-alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby'
+alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby/scripts'
 alias go_scripts='cd ~/Documents/programs/go'
 alias cpp_scripts='cd ~/Documents/programs/cpp'
 # installation directories
@@ -61,6 +61,7 @@ alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 
 # flashquest specific functionality
+<<<<<<< HEAD
 alias quest='cd $HOME/Documents/production_development/flashquest'
 alias api='cd $HOME/Documents/production_development/flashquest/api'
 alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
@@ -74,8 +75,22 @@ alias tapthere='cd $HOME/Documents/production_development/tapthere'
 =======
 alias social='cd $HOME/Documents/production_development/social_stack'
 
+=======
+# alias quest='cd $HOME/Documents/production_development/flashquest'
+# alias api='cd $HOME/Documents/production_development/flashquest/api'
+# alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
+# alias business='cd $HOME/Documents/production_development/flashquest/business'
+# alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
+# alias socket='cd $HOME/Documents/production_development/flashquest/socket'
+>>>>>>> mac
 
 
+alias piggy='cd $HOME/Documents/production_development/piggy'
+alias jumper='cd $HOME/Documents/production_development/jumper'
+alias social='cd $HOME/Documents/production_development/stacksocial'
+alias api='cd $HOME/Documents/production_development/jumper/api'
 
+# retention science mini-test
+alias retention='cd $HOME/Documents/production_development/retention'
 
 >>>>>>> mac

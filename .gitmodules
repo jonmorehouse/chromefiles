@@ -44,3 +44,6 @@
 [submodule "vim/bundle/headlights"]
 	path = vim/bundle/headlights
 	url = git://github.com/mbadran/headlights.git
+[submodule "bin/spotify_control"]
+	path = bin/spotify_control
+	url = https://github.com/dronir/SpotifyControl
