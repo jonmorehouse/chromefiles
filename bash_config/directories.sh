@@ -60,6 +60,7 @@ alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 
+<<<<<<< HEAD
 # flashquest specific functionality
 <<<<<<< HEAD
 alias quest='cd $HOME/Documents/production_development/flashquest'
@@ -85,10 +86,14 @@ alias social='cd $HOME/Documents/production_development/social_stack'
 >>>>>>> mac
 
 
+=======
+# initialize current projects
+>>>>>>> mac
 alias piggy='cd $HOME/Documents/production_development/piggy'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias social='cd $HOME/Documents/production_development/stacksocial'
 alias api='cd $HOME/Documents/production_development/jumper/api'
+alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
 
 # retention science mini-test
 alias retention='cd $HOME/Documents/production_development/retention'

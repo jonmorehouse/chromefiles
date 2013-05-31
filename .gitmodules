@@ -47,3 +47,6 @@
 [submodule "bin/spotify_control"]
 	path = bin/spotify_control
 	url = https://github.com/dronir/SpotifyControl
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion
