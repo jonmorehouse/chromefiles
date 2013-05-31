@@ -59,19 +59,12 @@ alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 
-# flashquest specific functionality
-# alias quest='cd $HOME/Documents/production_development/flashquest'
-# alias api='cd $HOME/Documents/production_development/flashquest/api'
-# alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
-# alias business='cd $HOME/Documents/production_development/flashquest/business'
-# alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
-# alias socket='cd $HOME/Documents/production_development/flashquest/socket'
-
-
+# initialize current projects
 alias piggy='cd $HOME/Documents/production_development/piggy'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias social='cd $HOME/Documents/production_development/stacksocial'
 alias api='cd $HOME/Documents/production_development/jumper/api'
+alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
 
 # retention science mini-test
 alias retention='cd $HOME/Documents/production_development/retention'

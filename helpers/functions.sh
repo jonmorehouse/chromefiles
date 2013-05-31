@@ -33,6 +33,17 @@ function local_password {
 
 }
 
+function custom_shell {
+
+	# now see if the file exists
+	if [[ -f ./.shell_config ]]; then
+		#statements
+		source .shell_config
+		echo "Source Loaded."
+	fi
+	
+}
+
 # deactivate the cd function overwrite because it was messing up functionality with our application etc
 # need to listen to directory changes -- not sure how this can be accomplished
 # function cd {
