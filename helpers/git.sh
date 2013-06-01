@@ -12,6 +12,9 @@ alias save='git commit -a --amend --no-edit'
 # set up github editor default
 # git config --global core.editor "pico"
 
+#Checkout an older version
+#git co HEAD~n .
+#git co HEAD~n -- filename
 
 # set up custom merge element
 function git.merge {
