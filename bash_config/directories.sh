@@ -30,7 +30,6 @@ alias media='cd ~/Documents/media'
 # code specific files- scripts, programs, project roots etc
 alias programs='cd ~/Documents/programs'
 alias production_development='cd ~/Documents/production_development'
-alias media='cd ~/Documents/media'
 alias general_development='cd ~/Documents/general_development'
 alias helper_programs='cd ~/Documents/general_development/helper_programs'
 alias testing_environments='general_development && cd testing_environments/'
@@ -60,35 +59,7 @@ alias brain='cd /Users/MorehouseJ09/Documents/production_development/brain'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 
-<<<<<<< HEAD
-# flashquest specific functionality
-<<<<<<< HEAD
-alias quest='cd $HOME/Documents/production_development/flashquest'
-alias api='cd $HOME/Documents/production_development/flashquest/api'
-alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
-alias business='cd $HOME/Documents/production_development/flashquest/business'
-alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
-alias socket='cd $HOME/Documents/production_development/flashquest/socket'
-
-
-alias tapthere='cd $HOME/Documents/production_development/tapthere'
-<<<<<<< HEAD
-=======
-alias social='cd $HOME/Documents/production_development/social_stack'
-
-=======
-# alias quest='cd $HOME/Documents/production_development/flashquest'
-# alias api='cd $HOME/Documents/production_development/flashquest/api'
-# alias old_api='cd $HOME/Documents/production_development/flashquest/old_api'
-# alias business='cd $HOME/Documents/production_development/flashquest/business'
-# alias notifications='cd $HOME/Documents/production_development/flashquest/notifications'
-# alias socket='cd $HOME/Documents/production_development/flashquest/socket'
->>>>>>> mac
-
-
-=======
 # initialize current projects
->>>>>>> mac
 alias piggy='cd $HOME/Documents/production_development/piggy'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias social='cd $HOME/Documents/production_development/stacksocial'
@@ -98,4 +69,3 @@ alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
 # retention science mini-test
 alias retention='cd $HOME/Documents/production_development/retention'
 
->>>>>>> mac
