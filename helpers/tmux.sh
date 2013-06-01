@@ -6,6 +6,7 @@ alias "tmux.kill_all"='tmux kill-server'
 alias "tmux.reload"='tmux source-file ~/.tmux.conf'
 alias "tmux.kill"='tmux kill-window -t ${1}'
 alias switch='tmux switch -t ${1}'
+alias list='tmux list-sessions'
 
 
 # alias "tmux.send"="tmux send-keys -t ${1} 'ls' C-m"
