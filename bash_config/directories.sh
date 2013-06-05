@@ -64,8 +64,10 @@ alias piggy='cd $HOME/Documents/production_development/piggy'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias social='cd $HOME/Documents/production_development/stacksocial'
 alias api='cd $HOME/Documents/production_development/jumper/api'
+alias old_api='cd $HOME/Documents/production_development/jumper/old_api'
 alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
 
 # retention science mini-test
 alias retention='cd $HOME/Documents/production_development/retention'
+
 
