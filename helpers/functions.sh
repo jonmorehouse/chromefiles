@@ -33,6 +33,7 @@ function local_password {
 
 }
 
+# create a function that is useful for loading in custom configuration for local projects
 function custom_shell {
 
 	# now see if the file exists
@@ -42,6 +43,16 @@ function custom_shell {
 		echo "Source Loaded."
 	fi
 	
+}
+
+# create a function to restart a directory project that is being watched
+function local_restart {
+
+	if [[ -f ./.restart ]]; then
+
+		touch ./.restart
+	fi
+
 }
 
 # deactivate the cd function overwrite because it was messing up functionality with our application etc

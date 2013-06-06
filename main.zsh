@@ -33,7 +33,7 @@ load $directory/helpers/main.sh #these are one liners -- generally will not have
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias reload='load ~/dotfiles/main.zsh && custom_shell'
+alias reload='load ~/dotfiles/main.zsh && custom_shell && local_restart'
 
 
 # unset -f cd
