@@ -53,6 +53,8 @@ function local_restart {
 		touch ./.restart
 	fi
 
+	
+
 }
 
 # deactivate the cd function overwrite because it was messing up functionality with our application etc
