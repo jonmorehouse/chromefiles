@@ -16,4 +16,5 @@ load $local_directory/networking.sh #networking utilities
 load $local_directory/javascript.sh #javascript / node helper utilities
 load $local_directory/git.sh #github shortcuts
 load $local_directory/mac.sh #mac only shortcuts
+load $local_directory/t.sh #load up t for local tasks etc
 # load $directory/ubuntu.sh #ubuntu only
