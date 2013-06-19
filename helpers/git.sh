@@ -5,7 +5,7 @@ alias ci='git commit'
 alias push='git push'
 # save our state to the last push etc
 alias save='git commit -a --amend --no-edit'
-alias count_commites='git rev-list HEAD --count'
+alias count_commits='git rev-list HEAD --count'
 # number of comimts = git shortlog -s -n
 # git ls-tree --name-only HEAD
 # git submodule update --recursive
