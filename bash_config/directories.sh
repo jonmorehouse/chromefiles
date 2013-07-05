@@ -68,6 +68,7 @@ alias old_api='cd $HOME/Documents/production_development/jumper/old_api'
 alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
 alias aws='cd $HOME/Documents/production_development/jumper/aws'
 alias services='cd $HOME/Documents/production_development/jumper/services'
+alias temp_api='cd $HOME/Documents/production_development/jumper/temp_api'
 
 # retention science mini-test
 alias retention='cd $HOME/Documents/production_development/retention'

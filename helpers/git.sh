@@ -4,7 +4,7 @@ alias cim='git commit -a -m'
 alias ci='git commit'
 alias push='git push'
 # save our state to the last push etc
-alias save='git commit -a --amend --no-edit'
+alias save='git commit -a --amend --no-edit && git push --force'
 alias count_commits='git rev-list HEAD --count'
 # number of comimts = git shortlog -s -n
 # git ls-tree --name-only HEAD
