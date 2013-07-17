@@ -62,15 +62,12 @@ alias clothing='/Users/MorehouseJ09/Documents/production_development/clothing'
 # initialize current projects
 alias piggy='cd $HOME/Documents/production_development/piggy'
 alias jumper='cd $HOME/Documents/production_development/jumper'
+alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias social='cd $HOME/Documents/production_development/stacksocial'
-alias api='cd $HOME/Documents/production_development/jumper/api'
-alias old_api='cd $HOME/Documents/production_development/jumper/old_api'
-alias iphone='cd $HOME/Documents/production_development/jumper/iphone'
-alias aws='cd $HOME/Documents/production_development/jumper/aws'
-alias services='cd $HOME/Documents/production_development/jumper/services'
-alias temp_api='cd $HOME/Documents/production_development/jumper/temp_api'
-
-# retention science mini-test
-alias retention='cd $HOME/Documents/production_development/retention'
+alias core='cd $HOME/Documents/production_development/jumper-backend/core'
+alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
+alias test='cd $HOME/Documents/production_development/jumper-backend/test'
+alias bomb='cd $HOME/Documents/production_development/bomb-sweeper'
+alias devops='cd $HOME/Documents/production_development/jumper-devops'
 
 
