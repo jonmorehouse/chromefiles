@@ -9,8 +9,6 @@ unsetopt correct_all
 # set up the vim keyword mode for zsh
 bindkey -v
 
-# this is important -- substituting the git command to use hub!
-alias git='hub'
 
 function load {
 
@@ -23,11 +21,9 @@ function load {
 	fi
 }
 
-load $directory/bash_config/paths.sh  #general path config
 load $directory/bash_config/config.sh  #general system configuration
-load $directory/bash_config/temp.sh #load in some temporary aliases etc
 load $directory/config/auto_completions.zsh #load in zsh auto completions
-load $directory/bash_config/directories.sh #include the proper directory shortcuts I have configured
+load $directory/bash_config/shortcuts.sh #include the proper directory shortcuts I have configured
 load $directory/bash_config/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED
 load $directory/helpers/main.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 

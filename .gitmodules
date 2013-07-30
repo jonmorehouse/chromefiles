@@ -56,3 +56,6 @@
 [submodule "bin/pmd"]
 	path = bin/pmd
 	url = git://github.com/dtinth/pmd.git
+[submodule "vim/bundle/easy-motion"]
+	path = vim/bundle/easy-motion
+	url = https://github.com/Lokaltog/vim-easymotion
