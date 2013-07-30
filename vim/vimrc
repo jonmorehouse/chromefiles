@@ -14,10 +14,11 @@ filetype plugin on
 "autocmd vimenter * if !argc() | NERDTree | endif
 
 syntax enable
-"set background=dark
+set background=dark
+
 let g:solarized_termcolors=256
-colorscheme monokai
-colors monokai
+colorscheme solarized
+"colors monokai
 let g:molokai_original = 1
 "initialize vim settings
 " make buffers hide instead of close

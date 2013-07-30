@@ -10,9 +10,6 @@ alias back='cd -'
 alias git='hub'
 alias v='vim'
 
-
-
-
 # basic directory navigation. Not necessarily code, media and general nav
 alias document='cd ~/Documents'
 alias dotfiles='cd ~/dotfiles'
@@ -30,7 +27,7 @@ alias temp='cd ~/Documents/temp'
 alias blogs='cd /Users/MorehouseJ09/Documents/general_development/blogs'
 alias courses='cd /Users/MorehouseJ09/Documents/courses/'
 alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
-alias media='cd ~/Documents/media'
+alias assets='cd ~/Documents/assets'
 
 # code specific files- scripts, programs, project roots etc
 alias programs='cd ~/Documents/programs'
@@ -59,10 +56,6 @@ alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
 alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
 
-# initialize current projects
-alias piggy='cd $HOME/Documents/production_development/piggy'
-alias social='cd $HOME/Documents/production_development/stacksocial'
-
 ### JUMPER 
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
@@ -72,6 +65,7 @@ alias devops='cd $HOME/Documents/production_development/jumper-devops'
 alias core='cd $HOME/Documents/production_development/jumper-backend/core'
 alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
 alias test='cd $HOME/Documents/production_development/jumper-backend/test'
+alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
 
 
 

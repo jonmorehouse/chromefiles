@@ -62,3 +62,6 @@
 [submodule "vim/bundle/peaksea"]
 	path = vim/bundle/peaksea
 	url = https://github.com/vim-scripts/peaksea
+[submodule "vim/bundle/color-schemes"]
+	path = vim/bundle/color-schemes
+	url = https://github.com/flazz/vim-colorschemes
