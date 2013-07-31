@@ -4,11 +4,6 @@ directory=~/dotfiles/
 SHELL=/usr/local/bin/zsh #current shell
 
 HIST_VERIFY="false"
-# stop all autocorrection
-unsetopt correct_all
-# set up the vim keyword mode for zsh
-bindkey -v
-
 
 function load {
 
@@ -27,10 +22,15 @@ load $directory/bash_config/shortcuts.sh #include the proper directory shortcuts
 load $directory/bash_config/personal.sh  #these are sshs, passwords, logins etc THIS SHOULD NOT BE COMMITED
 load $directory/helpers/main.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
+# initialize any zsh-specific configuration settings here
+load $directory/zsh/config.zsh
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias reload='load ~/dotfiles/main.zsh && custom_shell && local_restart'
 alias r='load ~/dotfiles/main.zsh && custom_shell && local_restart'
 
-# unset -f cd
+
+
+
 
