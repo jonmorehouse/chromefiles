@@ -65,3 +65,6 @@
 [submodule "vim/bundle/color-schemes"]
 	path = vim/bundle/color-schemes
 	url = https://github.com/flazz/vim-colorschemes
+[submodule "vim/bundle/sunburst"]
+	path = vim/bundle/sunburst
+	url = https://github.com/sickill/vim-sunburst
