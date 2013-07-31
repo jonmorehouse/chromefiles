@@ -53,19 +53,21 @@ alias cellar='cd /usr/local/Cellar'
 
 # Projects I'm currently working on
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
-alias personal='cd /Users/MorehouseJ09/Documents/production_development/jon_morehouse'
-alias resume='/Users/MorehouseJ09/Documents/production_development/resume'
+alias personal='cd /Users/MorehouseJ09/Documents/production_development/personal/jonmorehouse.me'
+alias resume='/Users/MorehouseJ09/Documents/production_development/personal/resume'
 
 ### JUMPER 
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
+alias ios='cd $HOME/Documents/production_development/jumper-iphone/current'
 
 ### JUMPER INDIVIDUAL PROJECTS 
 alias core='cd $HOME/Documents/production_development/jumper-backend/core'
 alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
 alias test='cd $HOME/Documents/production_development/jumper-backend/test'
 alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
+alias blog='cd $HOME/Documents/production_development/jumper/blog'
 
 
 
