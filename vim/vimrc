@@ -1,20 +1,20 @@
+"""""""""
+"""""""""
+""""""""" Initialize our bundles and pathogen for loading them up
+"""""""""
+"""""""""
+
 "load up our bundle loaders!
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-
 " initialize pathogen to help with bundles
 execute pathogen#infect()
 
-" support syntax coloring
-syntax on
 
-"help with file types
-filetype plugin indent on
-filetype plugin on
-" initialie files to autoignore with nerd-tree
-
-"enable nerdtree support each time we initialize vim
-"autocmd vimenter * if !argc() | NERDTree | endif
-syntax enable
+"""""""""
+"""""""""
+""""""""" Initialize Vim Themes / Colors
+"""""""""
+"""""""""
 
 " Initialize color scheme for application
 set background=dark
@@ -24,15 +24,28 @@ colorscheme solarized
 let g:molokai_original = 1
 
 
+
+"""""""""
+"""""""""
+""""""""" Iniitalize general vim settings
+"""""""""
+"""""""""
+
+" support syntax coloring
+syntax on
+syntax enable
+
+"help with file types
+filetype plugin indent on
+filetype plugin on
+" initialie files to autoignore with nerd-tree
+
 " make buffers hide instead of close
 set hidden
-
 "don't wrap lines
 set nowrap
-
 "Set the vim clipboard
 set clipboard=unnamed
-
 set autoindent
 set copyindent
 "always show the line numbers
@@ -54,7 +67,16 @@ set noerrorbells
 set nobackup
 set noswapfile
 
-" set whther or not to highlight searches
+
+
+"""""""""
+"""""""""
+""""""""" Initialize general commands mapped off  
+"""""""""
+"""""""""
+"""""""""
+
+"set whther or not to highlight searches
 "set nohlsearch
 "http://vim.wikia.com/wiki/Mac_OS_X_clipboard_sharing:
 " now create a command to clear the highlighting
@@ -68,4 +90,49 @@ command! P r !pbpaste
 command! W w
 " source our vimrc and reload everything
 command! S source $HOME/.vimrc
+
+" initialize commands to call our local restart and external restart via grunt
+command! R ! grunt r
+command! RR ! grunt rr
+
+"""""""""
+"""""""""
+""""""""" Initialize vim functions here
+"""""""""
+"""""""""
+" 
+
+"fu! SampleFunction()
+	
+	"echo "HELLO JON"
+
+
+"endfunction
+
+" initialize a grunt caller command
+" http://vim.wikia.com/wiki/Avoiding_the_%22Hit_ENTER_to_continue%22_prompts
+fu! Grunt(command)
+	
+	execute ":silent !grunt " . a:command
+
+endfunction
+
+
+
+
+"""""""""
+"""""""""
+"	Initialize leader commands
+"""""""""
+"""""""""
+
+let mapleader = ","
+" initialize save 
+noremap <Leader>s :update<CR>
+
+
+" now map some shortcuts to run our favorite grunt r commands (to restart
+" tasks and servers)
+noremap <Leader>r :call Grunt("r")<CR>
+noremap <Leader>rr :call Grunt("rr")<CR>
 
