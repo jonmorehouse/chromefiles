@@ -58,11 +58,14 @@ set noswapfile
 "set nohlsearch
 "http://vim.wikia.com/wiki/Mac_OS_X_clipboard_sharing:
 " now create a command to clear the highlighting
-command C let @/=""
+command! C let @/=""
 
 " set up some mac copy paste elements
-command -range Y w !pbcopy
-command -range P r !pbpaste
+command! -range Y w !pbcopy
+command! P r !pbpaste
 
 " set up and alias to help with saving
-command W w
+command! W w
+" source our vimrc and reload everything
+command! S source $HOME/.vimrc
+
