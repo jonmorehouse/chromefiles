@@ -8,6 +8,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 " initialize pathogen to help with bundles
 execute pathogen#infect()
+execut pathogen#helptags()
 
 """""""""
 """""""""
@@ -129,5 +130,17 @@ noremap <Leader>x :q<CR>
 noremap <Leader>r :call Grunt("r")<CR>
 noremap <Leader>rr :call Grunt("rr")<CR>
 
+
+"""""""""
+"""""""""
+"	 Initialize global aliases / changes
+"""""""""
+"""""""""
+noremap ; :
+
+" formatting helpers
+vmap Q gq
+nmap Q gqap
+p w!! w !sudo tee % >/dev/null
 
 
