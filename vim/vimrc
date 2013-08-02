@@ -91,9 +91,8 @@ command! W w
 " source our vimrc and reload everything
 command! S source $HOME/.vimrc
 
-" initialize commands to call our local restart and external restart via grunt
-command! R ! grunt r
-command! RR ! grunt rr
+" save a file that requires sudo saving etc but wasn't opened under sudo
+command! WW :w !sudo tee %
 
 """""""""
 """""""""
@@ -108,7 +107,7 @@ fu! Grunt(command)
 	
 	" we need to initialize a setting to check whether or not the grunt
 	" file exists
-	execute ":silent !grunt " . a:command
+	execute "!grunt " . a:command
 
 endfunction
 
@@ -141,6 +140,4 @@ noremap ; :
 " formatting helpers
 vmap Q gq
 nmap Q gqap
-p w!! w !sudo tee % >/dev/null
-
 
