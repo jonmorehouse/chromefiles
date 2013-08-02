@@ -9,8 +9,6 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 " initialize pathogen to help with bundles
 execute pathogen#infect()
 
-
-
 """""""""
 """""""""
 "	 Initialize Vim Themes / Colors
@@ -62,12 +60,13 @@ set noerrorbells
 set nobackup
 set noswapfile
 "http://stackoverflow.com/questions/2158516/delay-before-o-opens-a-new-line
-set timeoutlen=100
+" delay between leader key and second command accepting
+set timeoutlen=1000
 "http://vim.wikia.com/wiki/Moving_to_matching_braces
 set showmatch
+
 " check out the matching time / responsiveness for brackets in vim etc
 set matchtime=1
-
 
 """""""""
 """""""""
@@ -101,7 +100,8 @@ command! RR ! grunt rr
 """""""""
 """""""""
  
-" initialize a grunt caller command
+" initialize a grunt helper command -- this is useful for when restarting
+" tests on local projects etc
 " http://vim.wikia.com/wiki/Avoiding_the_%22Hit_ENTER_to_continue%22_prompts
 fu! Grunt(command)
 	
@@ -122,7 +122,7 @@ endfunction
 let mapleader = ","
 " initialize save 
 noremap <Leader>s :update<CR>
-
+noremap <Leader>x :q<CR>
 
 " now map some shortcuts to run our favorite grunt r commands (to restart
 " tasks and servers)
