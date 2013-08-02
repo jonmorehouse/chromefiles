@@ -1,6 +1,6 @@
 """""""""
 """""""""
-""""""""" Initialize our bundles and pathogen for loading them up
+"	 Initialize our bundles and pathogen for loading them up
 """""""""
 """""""""
 
@@ -10,13 +10,15 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 
+
 """""""""
 """""""""
-""""""""" Initialize Vim Themes / Colors
+"	 Initialize Vim Themes / Colors
 """""""""
 """""""""
 
 " Initialize color scheme for application
+syntax on
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
@@ -24,22 +26,15 @@ colorscheme solarized
 let g:molokai_original = 1
 
 
-
 """""""""
 """""""""
-""""""""" Iniitalize general vim settings
+"	 Iniitalize general vim settings
 """""""""
 """""""""
-
-" support syntax coloring
-syntax on
-syntax enable
 
 "help with file types
 filetype plugin indent on
 filetype plugin on
-" initialie files to autoignore with nerd-tree
-
 " make buffers hide instead of close
 set hidden
 "don't wrap lines
@@ -66,12 +61,17 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
-
+"http://stackoverflow.com/questions/2158516/delay-before-o-opens-a-new-line
+set timeoutlen=100
+"http://vim.wikia.com/wiki/Moving_to_matching_braces
+set showmatch
+" check out the matching time / responsiveness for brackets in vim etc
+set matchtime=1
 
 
 """""""""
 """""""""
-""""""""" Initialize general commands mapped off  
+" 	Initialize general commands mapped off  
 """""""""
 """""""""
 """""""""
@@ -97,26 +97,19 @@ command! RR ! grunt rr
 
 """""""""
 """""""""
-""""""""" Initialize vim functions here
+"        Initialize vim functions here
 """""""""
 """""""""
-" 
-
-"fu! SampleFunction()
-	
-	"echo "HELLO JON"
-
-
-"endfunction
-
+ 
 " initialize a grunt caller command
 " http://vim.wikia.com/wiki/Avoiding_the_%22Hit_ENTER_to_continue%22_prompts
 fu! Grunt(command)
 	
+	" we need to initialize a setting to check whether or not the grunt
+	" file exists
 	execute ":silent !grunt " . a:command
 
 endfunction
-
 
 
 
@@ -135,4 +128,6 @@ noremap <Leader>s :update<CR>
 " tasks and servers)
 noremap <Leader>r :call Grunt("r")<CR>
 noremap <Leader>rr :call Grunt("rr")<CR>
+
+
 
