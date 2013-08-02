@@ -62,7 +62,6 @@ set noswapfile
 " now create a command to clear the highlighting
 command C let @/=""
 
-"Set the file type live ... :set filetype=cpp
-"set the directory to automatically change to the working directory when using vim
-"set autochdir
-"initialize wildignore for various files with command-t
+" set up some mac copy paste elements
+"command mc 
+"command mp 
