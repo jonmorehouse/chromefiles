@@ -1,3 +1,4 @@
+"load up our bundle loaders!
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 " initialize pathogen to help with bundles
@@ -9,18 +10,21 @@ syntax on
 "help with file types
 filetype plugin indent on
 filetype plugin on
+" initialie files to autoignore with nerd-tree
+set wildignore+=*.o,*.obj,.git,node_modules
 
-" enable nerdtree support each time we initialize vim
+"enable nerdtree support each time we initialize vim
 "autocmd vimenter * if !argc() | NERDTree | endif
-
 syntax enable
-set background=dark
 
+" Initialize color scheme for application
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 "colors monokai
 let g:molokai_original = 1
-"initialize vim settings
+
+
 " make buffers hide instead of close
 set hidden
 
@@ -29,6 +33,7 @@ set nowrap
 
 "Set the vim clipboard
 set clipboard=unnamed
+
 set autoindent
 set copyindent
 "always show the line numbers
@@ -48,10 +53,16 @@ set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
-set nohlsearch
+
+
+
+" set whther or not to highlight searches
+"set nohlsearch
+"http://vim.wikia.com/wiki/Mac_OS_X_clipboard_sharing:
+" now create a command to clear the highlighting
+command C let @/=""
+
 "Set the file type live ... :set filetype=cpp
 "set the directory to automatically change to the working directory when using vim
 "set autochdir
 "initialize wildignore for various files with command-t
-
-set wildignore+=*.o,*.obj,.git,node_modules
