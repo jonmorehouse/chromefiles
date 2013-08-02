@@ -11,7 +11,6 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 " initialie files to autoignore with nerd-tree
-set wildignore+=*.o,*.obj,.git,node_modules
 
 "enable nerdtree support each time we initialize vim
 "autocmd vimenter * if !argc() | NERDTree | endif
@@ -48,13 +47,12 @@ set incsearch
 set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.ds_store,*.pyc,*.class
+set wildignore+=*.o,*.obj,.git,node_modules
 set title
 set visualbell
 set noerrorbells
 set nobackup
 set noswapfile
-
-
 
 " set whther or not to highlight searches
 "set nohlsearch
@@ -63,5 +61,8 @@ set noswapfile
 command C let @/=""
 
 " set up some mac copy paste elements
-"command mc 
-"command mp 
+command -range Y w !pbcopy
+command -range P r !pbpaste
+
+" set up and alias to help with saving
+command W w
