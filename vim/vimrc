@@ -94,6 +94,9 @@ command! S source $HOME/.vimrc
 " save a file that requires sudo saving etc but wasn't opened under sudo
 command! WW :w !sudo tee %
 
+" new tab shortcut
+command! T :tabedit
+
 """""""""
 """""""""
 "        Initialize vim functions here
