@@ -125,6 +125,7 @@ endfunction
 let mapleader = ","
 " initialize save 
 noremap <Leader>s :update<CR>
+noremap <Leader>ss :wall<CR>
 noremap <Leader>x :q<CR>
 
 " now map some shortcuts to run our favorite grunt r commands (to restart
