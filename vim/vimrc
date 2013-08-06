@@ -140,7 +140,8 @@ noremap <Leader>rr :call Grunt("rr")<CR>
 "	 Initialize global aliases / changes
 """""""""
 """""""""
-noremap ; :
+" remove the remapping of the ;
+"noremap ; :
 
 " formatting helpers
 vmap Q gq
