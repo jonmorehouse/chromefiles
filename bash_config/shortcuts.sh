@@ -38,7 +38,7 @@ alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
 alias assets='cd ~/Documents/assets'
 
 ###
-	CODE SPECIFIC FOLDER ALIASES
+###	CODE SPECIFIC FOLDER ALIASES
 ###
 alias programs='cd ~/Documents/programs'
 alias production_development='cd ~/Documents/production_development'
