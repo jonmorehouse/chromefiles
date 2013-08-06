@@ -1,3 +1,6 @@
+###
+###	SYSTEM SHORTCUTS / ALIASES
+###
 # basic navigation helpers
 alias ~='cd ~'
 alias .='cd ..'
@@ -6,11 +9,16 @@ alias ...='cd ../../..'
 alias ....='cd ../../../..'
 alias back='cd -'
 
-# this is important -- substituting the git command to use hub!
+###
+###	PROGRAM SHORTCUTS / ALIASES
+###
 alias git='hub'
 alias v='vim'
+alias g='grunt'
 
-# basic directory navigation. Not necessarily code, media and general nav
+###
+###	GENERAL DIRECTORY SHORTCUTS
+###
 alias document='cd ~/Documents'
 alias dotfiles='cd ~/dotfiles'
 alias amazon='cd ~/amazon'
@@ -29,7 +37,9 @@ alias courses='cd /Users/MorehouseJ09/Documents/courses/'
 alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
 alias assets='cd ~/Documents/assets'
 
-# code specific files- scripts, programs, project roots etc
+###
+	CODE SPECIFIC FOLDER ALIASES
+###
 alias programs='cd ~/Documents/programs'
 alias production_development='cd ~/Documents/production_development'
 alias general_development='cd ~/Documents/general_development'
@@ -41,28 +51,35 @@ alias hacking='/Users/MorehouseJ09/Documents/general_development/hacking'
 alias cheatsheets='/Users/MorehouseJ09/Documents/general_development/cheatsheets'
 alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_code'
 
-# individual program types
+###
+###	SCRIPT TYPE SPECIFIC ALIASES
+###
 alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
 alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
 alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby/scripts'
 alias go_scripts='cd ~/Documents/programs/go'
 alias cpp_scripts='cd ~/Documents/programs/cpp'
 
-# installation directories
-alias cellar='cd /usr/local/Cellar'
 
-# Projects I'm currently working on
+###
+###	GENERAL PROJECTS
+###
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/personal/jonmorehouse.me'
 alias resume='/Users/MorehouseJ09/Documents/production_development/personal/resume'
 
-### JUMPER 
+
+### 
+###	JUMPER GENERAL
+###
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
 alias ios='cd $HOME/Documents/production_development/jumper-iphone/current'
 
-### JUMPER INDIVIDUAL PROJECTS 
+### 
+### 	JUMPER COMPONENTS
+###
 alias core='cd $HOME/Documents/production_development/jumper-backend/core'
 alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
 alias test='cd $HOME/Documents/production_development/jumper-backend/test'
