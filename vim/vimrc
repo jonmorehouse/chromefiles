@@ -8,7 +8,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 " initialize pathogen to help with bundles
 execute pathogen#infect()
-execut pathogen#helptags()
+execute pathogen#helptags()
 
 """""""""
 """""""""
@@ -83,7 +83,7 @@ set matchtime=1
 command! C let @/=""
 
 " set up some mac copy paste elements
-command! -range Y w !pbcopy
+command! -range Y  w !pbcopy
 command! P r !pbpaste
 
 " set up and alias to help with saving
@@ -127,6 +127,7 @@ let mapleader = ","
 noremap <Leader>s :update<CR>
 noremap <Leader>ss :wall<CR>
 noremap <Leader>x :q<CR>
+
 
 " now map some shortcuts to run our favorite grunt r commands (to restart
 " tasks and servers)
