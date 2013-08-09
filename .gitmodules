@@ -1,69 +1,6 @@
-[submodule "vim/bundle/vim-pathogen"]
-	path = vim/bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
-[submodule "vim/bundle/Command-T"]
-	path = vim/bundle/Command-T
-	url = git://github.com/wincent/Command-T.git
-[submodule "vim/bundle/localrc"]
-	path = vim/bundle/localrc
-	url = git://github.com/vim-scripts/localrc.vim.git
-[submodule "vim/bundle/lusty"]
-	path = vim/bundle/lusty
-	url = git://github.com/sjbach/lusty.git
-[submodule "vim-colors-solarized"]
-	path = vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/bundle/vim-surround"]
-	path = vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/vim-colors-solarized"]
-	path = vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/bundle/molokai"]
-	path = vim/bundle/molokai
-	url = git://github.com/tomasr/molokai.git
-[submodule "vim/bundle/monokai"]
-	path = vim/bundle/monokai
-	url = https://github.com/sickill/vim-monokai.git
-[submodule "vim-pathogen"]
-	path = vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
-[submodule "vim/bundle/vim-monokai"]
-	path = vim/bundle/vim-monokai
-	url = git://github.com/sickill/vim-monokai.git
-[submodule "vim/bundle/nerdcommenter"]
-	path = vim/bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "vim/bundle/vim-fakeclip"]
-	path = vim/bundle/vim-fakeclip
-	url = git://github.com/kana/vim-fakeclip.git
-[submodule "vim/bundle/headlights"]
-	path = vim/bundle/headlights
-	url = git://github.com/mbadran/headlights.git
 [submodule "bin/spotify_control"]
 	path = bin/spotify_control
 	url = https://github.com/dronir/SpotifyControl
-[submodule "vim/bundle/vim-easymotion"]
-	path = vim/bundle/vim-easymotion
-	url = https://github.com/Lokaltog/vim-easymotion
-[submodule "vim/bundle/coffee-script"]
-	path = vim/bundle/coffee-script
-	url = https://github.com/kchmck/vim-coffee-script
 [submodule "bin/pmd"]
 	path = bin/pmd
 	url = git://github.com/dtinth/pmd.git
-[submodule "vim/bundle/easy-motion"]
-	path = vim/bundle/easy-motion
-	url = https://github.com/Lokaltog/vim-easymotion
-[submodule "vim/bundle/peaksea"]
-	path = vim/bundle/peaksea
-	url = https://github.com/vim-scripts/peaksea
-[submodule "vim/bundle/color-schemes"]
-	path = vim/bundle/color-schemes
-	url = https://github.com/flazz/vim-colorschemes
-[submodule "vim/bundle/sunburst"]
-	path = vim/bundle/sunburst
-	url = https://github.com/sickill/vim-sunburst
-[submodule "vim/bundle/yankring"]
-	path = vim/bundle/yankring
-	url = https://github.com/vim-scripts/YankRing.vim
