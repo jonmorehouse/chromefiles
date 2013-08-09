@@ -4,3 +4,6 @@
 [submodule "bin/pmd"]
 	path = bin/pmd
 	url = git://github.com/dtinth/pmd.git
+[submodule "vim"]
+	path = vim
+	url = https://github.com/MorehouseJ09/vim
