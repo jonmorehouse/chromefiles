@@ -67,6 +67,7 @@ alias cpp_scripts='cd ~/Documents/programs/cpp'
 alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
 alias personal='cd /Users/MorehouseJ09/Documents/production_development/personal/jonmorehouse.me'
 alias resume='/Users/MorehouseJ09/Documents/production_development/personal/resume'
+alias vagrant_packages='/Users/MorehouseJ09/Documents/programs/vagrant/'
 
 
 ### 
