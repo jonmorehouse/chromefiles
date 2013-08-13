@@ -1,6 +1,6 @@
 #this is the main dotfile loader
 # in the future 
-directory=~/dotfiles/
+directory=$HOME/dotfiles/
 SHELL=/usr/local/bin/zsh #current shell
 
 HIST_VERIFY="false"
@@ -27,9 +27,7 @@ load $directory/zsh/config.zsh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-alias reload='load ~/dotfiles/main.zsh && custom_shell && local_restart'
-alias r='load ~/dotfiles/main.zsh && custom_shell && local_restart'
-
+alias r='reload'
 
 
 

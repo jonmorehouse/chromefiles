@@ -53,26 +53,7 @@ function local_restart {
 		touch ./.restart
 	fi
 
-	
-
 }
-
-# deactivate the cd function overwrite because it was messing up functionality with our application etc
-# need to listen to directory changes -- not sure how this can be accomplished
-# function cd {
-# 	# check if the file exist and then will load the file
-# 	builtin cd ${1} #move to the specified directory
-	
-# 	# now see if the file exists
-# 	if [[ -f ./.shell_config ]]; then
-# 		#statements
-# 		source .shell_config
-# 		echo "Source Loaded."
-# 	fi
-
-# 	ls
-# }
-
 
 # unmount a disk
 function eject {
@@ -90,6 +71,29 @@ function power {
 
 }
 
+function reload {
+	
+	# check to see if current shell is zsh or not so we can load proper main files
+	if [[ $SHELL == */zsh ]];then
+
+		source $HOME/dotfiles/main.zsh		
+	else
+		
+		source $HOME/dotfiles/main.sh		
+	fi
+	
+	# load up any .shell_configs
+	custom_shell
+
+	# restart any watch processes etc
+	local_restart
+
+	# check to see if we are currently running a  virtualenv in python
+	if [[ -d bin && -f bin/activate ]];then
+		
+		source bin/activate
+	fi
+}
 
 
 
