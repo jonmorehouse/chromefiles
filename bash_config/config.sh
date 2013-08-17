@@ -16,6 +16,9 @@ PKG_CONFIG_PATH=/usr/local/jansson/
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+# export our go package location
+export GOPATH=$HOME/go
+PATH=$PATH:$GOPATH/bin
 
 # add global gemset into the path
 PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p362@global/bin
@@ -34,3 +37,4 @@ cd .
 PATH=:/usr/local/share/npm/bin:/Users/MorehouseJ09/Resources/helper_programs:/Users/MorehouseJ09/Resources/programs:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/php/bin:/usr/local/Cellar/php54/5.4.5/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/apache2/bin:/usr/local/nginx/sbin:/usr/local/ec2-api-tools/bin:/usr/local/src/jpeg-8c:/usr/local/php/bin
 
 export PATH
+
