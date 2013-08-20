@@ -48,7 +48,7 @@ function custom_shell {
 # create a function to restart a directory project that is being watched
 function local_restart {
 
-	if [[ -f ./.restart ]]; then
+	if [[ -f ./.restart* ]]; then
 
 		touch ./.restart
 	fi

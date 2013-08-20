@@ -92,7 +92,7 @@ alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixture
 alias test='cd $HOME/Documents/production_development/jumper-backend/test'
 alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
 alias blog='cd $HOME/Documents/production_development/jumper/blog'
-
+alias encoding='cd $HOME/Documents/production_development/jumper-backend/encoding'
 
 
 
