@@ -82,7 +82,7 @@ alias light-dotfiles='cd /Users/MorehouseJ09/Documents/programs/light-dotfiles'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
-alias ios='cd $HOME/Documents/production_development/jumper-iphone/current'
+alias ios='cd $HOME/Documents/production_development/jumper-ios/iphone.v1'
 
 ### 
 ### 	JUMPER COMPONENTS
