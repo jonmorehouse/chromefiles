@@ -24,7 +24,8 @@ PATH=$PATH:$GOPATH/bin
 PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p362@global/bin
 
 # add custom php installation into path
-PATH=$PATH:/usr/local/php/bin
+PATH=$PATH:/usr/local/php/bin:/usr/local/apache2/bin
+PATH=$PATH:/usr/local/apache2/bin
 
 # now lets add my custom bin location for custom scripts etc to live!
 PATH=$PATH:$HOME/dotfiles/bin

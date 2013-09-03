@@ -83,6 +83,8 @@ alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
 alias ios='cd $HOME/Documents/production_development/jumper-ios/iphone.v1'
+alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/docker-cookbooks'
+alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
 
 ### 
 ### 	JUMPER COMPONENTS
@@ -93,6 +95,7 @@ alias test='cd $HOME/Documents/production_development/jumper-backend/test'
 alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
 alias blog='cd $HOME/Documents/production_development/jumper/blog'
 alias encoding='cd $HOME/Documents/production_development/jumper-backend/encoding'
+alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
 
 
 
