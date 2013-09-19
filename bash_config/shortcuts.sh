@@ -82,9 +82,10 @@ alias light-dotfiles='cd /Users/MorehouseJ09/Documents/programs/light-dotfiles'
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
-alias ios='cd $HOME/Documents/production_development/jumper-ios/iphone.v1'
+alias ios='cd $HOME/Documents/production_development/jumper-clients/iphone.v1'
 alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/cookbooks'
 alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
+alias app='cd $HOME/Documents/production_development/jumper-clients/web-app'
 
 ### 
 ### 	JUMPER COMPONENTS
@@ -95,6 +96,8 @@ alias test='cd $HOME/Documents/production_development/jumper-backend/test'
 alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
 alias blog='cd $HOME/Documents/production_development/jumper/blog'
 alias media-workers='cd $HOME/Documents/production_development/jumper-backend/media-workers'
+alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend/go-media-workers'
+
 alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
 
 
