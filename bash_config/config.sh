@@ -40,8 +40,12 @@ PATH=:/usr/local/share/npm/bin:/Users/MorehouseJ09/Resources/helper_programs:/Us
 export PATH
 
 # now set our gopath
-GOROOT=/usr/local/Cellar/go/1.1.2/
+GOROOT=/usr/local/Cellar/go/1.1.2
 export GOROOT
 
+# update python path for compatibility with homebrew version of bazaar
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
+# export the correct pomodoro path
+export PMDPATH=$HOME/dotfiles/bin/pmd/pmd
 
