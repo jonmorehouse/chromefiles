@@ -3,7 +3,7 @@
 	url = https://github.com/dronir/SpotifyControl
 [submodule "bin/pmd"]
 	path = bin/pmd
-	url = git://github.com/dtinth/pmd.git
+	url = git://github.com/MorehouseJ09/pmd.git
 [submodule "vim"]
 	path = vim
 	url = https://github.com/MorehouseJ09/vim
