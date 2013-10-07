@@ -97,6 +97,7 @@ alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
 alias blog='cd $HOME/Documents/production_development/jumper/blog'
 alias media-workers='cd $HOME/Documents/production_development/jumper-backend/media-workers'
 alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend/go-media-workers'
+alias c-encoder='cd $HOME/Documents/production_development/jumper-backend/c-encoder'
 
 alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
 
