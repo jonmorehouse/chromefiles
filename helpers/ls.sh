@@ -8,12 +8,6 @@ alias po='popd'
 alias ...='cd ../..'
 alias -- -='cd -'
 
-# Super user
-alias _='sudo'
-alias please='sudo'
-
-#alias g='grep -in'
-
 # Show history
 alias history='fc -l 1'
 
@@ -21,6 +15,7 @@ alias history='fc -l 1'
 alias lsa='ls -lah'
 alias l='ls -lA1'
 alias ll='ls -l'
+alias lll='ls -l'
 alias la='ls -lA'
 alias lar='ls -lAR'
 alias sl=ls # often screw this up

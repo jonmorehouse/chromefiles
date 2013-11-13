@@ -76,30 +76,48 @@ alias resume='cd /Users/MorehouseJ09/Documents/production_development/personal/r
 alias vagrant_packages='cd /Users/MorehouseJ09/Documents/programs/vagrant/'
 alias light-dotfiles='cd /Users/MorehouseJ09/Documents/programs/light-dotfiles'
 
+###
+###	Mobilend / Invidy Projects
+###
+alias invidy='cd $HOME/Documents/production_development/invidy'
+alias email_app='cd $HOME/Documents/production_development/thestreetpicks/email_app'
+
 ### 
 ###	JUMPER GENERAL
 ###
 alias jumper='cd $HOME/Documents/production_development/jumper'
 alias backend='cd $HOME/Documents/production_development/jumper-backend'
 alias devops='cd $HOME/Documents/production_development/jumper-devops'
-alias ios='cd $HOME/Documents/production_development/jumper-clients/iphone.v1'
-alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/cookbooks'
-alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
-alias app='cd $HOME/Documents/production_development/jumper-clients/web-app'
+alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
+alias blog='cd $HOME/Documents/production_development/jumper/blog'
 
 ### 
 ### 	JUMPER COMPONENTS
 ###
-alias core='cd $HOME/Documents/production_development/jumper-backend/core'
-alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
+
+# Jumper clients
+alias ios='cd $HOME/Documents/production_development/jumper-clients/iphone.v1'
+alias app='cd $HOME/Documents/production_development/jumper-clients/web-app'
+
+# end 2 end testing etc
 alias test='cd $HOME/Documents/production_development/jumper-backend/test'
-alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
-alias blog='cd $HOME/Documents/production_development/jumper/blog'
+alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
+
+# general devops etc
+alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/cookbooks'
+alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
+alias s3-devops='cd $HOME/Documents/production_development/jumper-devops/s3-devops'
+
+# media cluster worker 
 alias media-workers='cd $HOME/Documents/production_development/jumper-backend/media-workers'
+alias media-devops='cd $HOME/Documents/production_development/jumper-devops/media-devops'
+
+# python services cluster etc
+alias services='cd $HOME/Documents/production_development/jumper-backend/services'
+alias services-devops='cd $HOME/Documents/production_development/jumper-devops/services-devops'
+
+# experimental tools / processes - not in production currently
 alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend/go-media-workers'
 alias c-encoder='cd $HOME/Documents/production_development/jumper-backend/c-encoder'
-
 alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
-
-
 
