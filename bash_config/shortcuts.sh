@@ -121,3 +121,7 @@ alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend
 alias c-encoder='cd $HOME/Documents/production_development/jumper-backend/c-encoder'
 alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
 
+# initialize jivoo 
+alias jivoo='cd $HOME/Documents/production_development/jivoo/version.1'
+
+
