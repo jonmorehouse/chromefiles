@@ -100,13 +100,15 @@ alias ios='cd $HOME/Documents/production_development/jumper-clients/iphone.v1'
 alias app='cd $HOME/Documents/production_development/jumper-clients/web-app'
 
 # end 2 end testing etc
-alias test='cd $HOME/Documents/production_development/jumper-backend/test'
+alias test='cd $HOME/Documents/production_development/jumper-backend/streaming-integration-tests'
 alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
 
 # general devops etc
 alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/cookbooks'
 alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
 alias s3-devops='cd $HOME/Documents/production_development/jumper-devops/s3-devops'
+alias devops-core='cd $HOME/Documents/production_development/jumper-devops/devops-core'
+alias uploader='cd $HOME/Documents/production_development/jumper-backend/broadcast-uploader'
 
 # media cluster worker 
 alias media-workers='cd $HOME/Documents/production_development/jumper-backend/media-workers'
