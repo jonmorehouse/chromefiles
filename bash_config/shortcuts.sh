@@ -24,38 +24,35 @@ alias g='grunt'
 ###
 ###	GENERAL DIRECTORY SHORTCUTS
 ###
-alias document='cd ~/Documents'
-alias dotfiles='cd ~/dotfiles'
-alias amazon='cd ~/amazon'
-alias download='cd ~/Downloads'
-alias desktop='cd ~/Desktop'
-alias dropbox='cd ~/Dropbox'
-alias music='cd ~/Music'
-alias movies='cd ~/Movies'
-alias picture='cd ~/Pictures'
+alias document='cd $HOME/Documents'
+alias dotfiles='cd $HOME/dotfiles'
+alias amazon='cd $HOME/amazon'
+alias download='cd $HOME/Downloads'
+alias desktop='cd $HOME/Desktop'
+alias dropbox='cd $HOME/Dropbox'
+alias music='cd $HOME/Music'
+alias movies='cd $HOME/Movies'
+alias picture='cd $HOME/Pictures'
 alias wd160='cd /Volumes/WD160/'
-alias work='cd ~/Documents/work'
-alias startups='cd ~/Documents/start_ups'
-alias temp='cd ~/Documents/temp'
-alias blogs='cd /Users/MorehouseJ09/Documents/general_development/blogs'
-alias courses='cd /Users/MorehouseJ09/Documents/courses/'
-alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
-alias assets='cd ~/Documents/assets'
+alias work='cd $HOME/Documents/work'
+alias startups='cd $HOME/Documents/start_ups'
+alias temp='cd $HOME/Documents/temp'
+alias blogs='cd $HOME/Documents/general_development/blogs'
 
 ###
 ### 	Global variables for alias use 
 ###
-production_development_directory="$HOME/Documents/production_development"
-program_directory="$HOME/Documents/programs"
+base_directory="$HOME/Documents"
+production_development_directory="${base_directory}/production_development"
 
 ###
 ###	PROGRAM DIRECTORY SHORTCUTS
 ###
-for i in `ls $program_directory`
+for i in `ls $HOME/Documents/programs`
 do
 	# create the alias helpers
 	aliasName="programs-$i"
-	aliasFunction="cd $program_directory/$i"
+	aliasFunction="cd $HOME/Documents/programs/$i"
 
 	# now go ahead and export the alias
 	eval alias ${aliasName}='${aliasFunction}'
@@ -64,96 +61,82 @@ done
 ###
 ###	CODE SPECIFIC FOLDER ALIASES
 ###
-alias programs='cd ~/Documents/programs'
-alias production_development='cd ~/Documents/production_development'
-alias general_development='cd ~/Documents/general_development'
-alias helper_programs='cd ~/Documents/general_development/helper_programs'
-alias testing_environments='general_development && cd testing_environments/'
-alias global_modules='general_development && cd modules'
-alias notes='general_development && cd notes/'
-alias hacking='/Users/MorehouseJ09/Documents/general_development/hacking'
-alias cheatsheets='/Users/MorehouseJ09/Documents/general_development/cheatsheets'
-alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_code'
-alias tech_start='cd $HOME/production_development/techstart'
+eval alias programs='"cd ${base_directory}/programs"'
+eval alias production_development='"cd ${production_development_directory}"'
+eval alias general_development='"cd ${base_directory}/general_development"'
+eval alias alias helper_programs='"cd ${base_directory}/general_development/helper_programs"'
+eval alias public_code='"cd ${base_directory}/general_development/public_code"'
+eval alias techstart='"cd ${base_directory}/techstart"'
 
-###
-###	Create all the relevant project aliases
-###
-for projectType in ls ~/Documents/programs
-do
-	aliasName="projects-$projectType"
-
-done
-
-
+## FINISHED
 
 ###
 ###	GENERAL PROJECTS
 ###
-alias prospero='cd /Users/MorehouseJ09/Documents/production_development/prospero/current'
-alias personal='cd /Users/MorehouseJ09/Documents/production_development/personal/jonmorehouse.me'
-alias resume='cd /Users/MorehouseJ09/Documents/production_development/personal/resume'
-alias vagrant_packages='cd /Users/MorehouseJ09/Documents/programs/vagrant/'
-alias light-dotfiles='cd /Users/MorehouseJ09/Documents/programs/light-dotfiles'
+eval alias prospero='"cd /Users/MorehouseJ09/Documents/production_development/prospero/current"'
+eval alias personal='"cd /Users/MorehouseJ09/Documents/production_development/personal/jonmorehouse.me"'
+eval alias resume='"cd /Users/MorehouseJ09/Documents/production_development/personal/resume"'
+eval alias vagrant_packages='"cd /Users/MorehouseJ09/Documents/programs/vagrant/"'
+eval alias light-dotfiles='"cd /Users/MorehouseJ09/Documents/programs/light-dotfiles"'
 
 ###
 ###	Mobilend / Invidy Projects
 ###
-alias invidy='cd $HOME/Documents/production_development/invidy'
-alias email_app='cd $HOME/Documents/production_development/thestreetpicks/email_app'
+eval alias invidy='"cd ${production_development_directory}/invidy"'
+eval alias email_app='"cd ${production_development_directory}/thestreetpicks/email_app"'
 
 ### 
 ###	JUMPER GENERAL
 ###
-alias jumper='cd $HOME/Documents/production_development/jumper'
-alias backend='cd $HOME/Documents/production_development/jumper-backend'
-alias devops='cd $HOME/Documents/production_development/jumper-devops'
-alias docs='cd $HOME/Documents/production_development/jumper-backend/docs'
-alias blog='cd $HOME/Documents/production_development/jumper/blog'
+eval alias jumper='"cd ${production_development_directory}/jumper"'
+eval alias backend='"cd ${production_development_directory}/jumper-backend"'
+eval alias devops='"cd ${production_development_directory}/jumper-devops"'
+eval alias docs='"cd ${production_development_directory}/jumper-backend/docs"'
+eval alias blog='"cd ${production_development_directory}/jumper/blog"'
 
 ### 
 ### 	JUMPER COMPONENTS
 ###
 
 # Jumper clients
-alias ios='cd $HOME/Documents/production_development/jumper-ios'
-alias ios-app='cd $HOME/Documents/production_development/jumper-ios/app'
+eval alias ios='"cd ${production_development_directory}/jumper-ios"'
+eval alias ios-app='"cd ${production_development_directory}/jumper-ios/app"'
 
 # ios devops go into the ios folder because its soo unrelated to the other devops components
-alias ios-devops='cd $HOME/Documents/production_development/jumper-ios/devops'
+eval alias ios-devops='"cd ${production_development_directory}/jumper-ios/devops"'
 
 # web app
-alias app='cd $HOME/Documents/production_development/jumper-web/web-app'
+eval alias app='"cd ${production_development_directory}/jumper-web/web-app"'
 
 # end 2 end testing etc
-alias test='cd $HOME/Documents/production_development/jumper-backend/streaming-integration-tests'
-alias fixtures='cd $HOME/Documents/production_development/jumper-backend/fixtures'
+eval alias test='"cd ${production_development_directory}/jumper-backend/streaming-integration-tests"'
+eval alias fixtures='"cd ${production_development_directory}/jumper-backend/fixtures"'
 
 # general devops etc
-alias cookbooks='cd $HOME/Documents/production_development/jumper-devops/cookbooks'
-alias registry='cd $HOME/Documents/production_development/jumper-devops/internal-docker-registry'
-alias s3-devops='cd $HOME/Documents/production_development/jumper-devops/s3-devops'
-alias devops-core='cd $HOME/Documents/production_development/jumper-devops/devops-core'
-alias uploader='cd $HOME/Documents/production_development/jumper-backend/broadcast-uploader'
+eval alias cookbooks='"cd ${production_development_directory}/jumper-devops/cookbooks"'
+eval alias registry='"cd ${production_development_directory}/jumper-devops/internal-docker-registry"'
+eval alias s3-devops='"cd ${production_development_directory}/jumper-devops/s3-devops"'
+eval alias devops-core='"cd ${production_development_directory}/jumper-devops/devops-core"'
+eval alias uploader='"cd ${production_development_directory}/jumper-backend/broadcast-uploader"'
 
 # media cluster worker 
-alias media-workers='cd $HOME/Documents/production_development/jumper-backend/media-workers'
-alias media-devops='cd $HOME/Documents/production_development/jumper-devops/media-devops'
+eval alias media-workers='"cd ${production_development_directory}/jumper-backend/media-workers"'
+eval alias media-devops='"cd ${production_development_directory}/jumper-devops/media-devops"'
 
 # python services cluster etc
-alias services='cd $HOME/Documents/production_development/jumper-backend/services'
-alias services-devops='cd $HOME/Documents/production_development/jumper-devops/services-devops'
+eval alias services='"cd ${production_development_directory}/jumper-backend/services"'
+eval alias services-devops='"cd ${production_development_directory}/jumper-devops/services-devops"'
 
 # experimental tools / processes - not in production currently
-alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend/go-media-workers'
-alias c-encoder='cd $HOME/Documents/production_development/jumper-backend/c-encoder'
-alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
+eval alias go-media-workers='"cd ${production_development_directory}/jumper-backend/go-media-workers"'
+eval alias c-encoder='"cd ${production_development_directory}/jumper-backend/c-encoder"'
+eval alias parse='"cd ${production_development_directory}/jumper-backend/parse-mapper"'
 
 # initialize api wrapper for communicating with python services layer 
-alias api='cd $HOME/Documents/production_development/jumper-backend/api'
-alias api-devops='cd $HOME/Documents/production_development/jumper-devops/api-devops'
+eval alias api='"cd ${production_development_directory}/jumper-backend/api"'
+eval alias api-devops='"cd ${production_development_directory}/jumper-devops/api-devops"'
 
 # initialize jivoo 
-alias jivoo='cd $HOME/Documents/production_development/jivoo/version.1'
+eval alias jivoo='"cd $home/documents/production_development/jivoo/version.1"'
 
-
+production_development_directory=""
