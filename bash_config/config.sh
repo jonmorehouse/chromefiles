@@ -31,6 +31,11 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### 
+###  Initailize virtualenvwrpaper
+### 
+source `which virtualenvwrapper.sh`
+
+### 
 ### Initialize GO Settings
 ###
 # export our go package location
@@ -64,5 +69,4 @@ PATH=$PATH:$HOME/dotfiles/bin
 
 # now export the final path
 export PATH
-
 
