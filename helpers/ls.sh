@@ -24,6 +24,7 @@ alias sl=ls # often screw this up
 alias lr='ls -lR'
 
 alias afind='ack-grep -il'
+alias permissions='gstat -c "%a %n"'
 
 # 
 alias push="pushd"

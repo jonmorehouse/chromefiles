@@ -96,8 +96,14 @@ alias blog='cd $HOME/Documents/production_development/jumper/blog'
 ###
 
 # Jumper clients
-alias ios='cd $HOME/Documents/production_development/jumper-clients/iphone.v1'
-alias app='cd $HOME/Documents/production_development/jumper-clients/web-app'
+alias ios='cd $HOME/Documents/production_development/jumper-ios'
+alias ios-app='cd $HOME/Documents/production_development/jumper-ios/app'
+
+# ios devops go into the ios folder because its soo unrelated to the other devops components
+alias ios-devops='cd $HOME/Documents/production_development/jumper-ios/devops'
+
+# web app
+alias app='cd $HOME/Documents/production_development/jumper-web/web-app'
 
 # end 2 end testing etc
 alias test='cd $HOME/Documents/production_development/jumper-backend/streaming-integration-tests'
@@ -122,6 +128,10 @@ alias services-devops='cd $HOME/Documents/production_development/jumper-devops/s
 alias go-media-workers='cd $HOME/Documents/production_development/jumper-backend/go-media-workers'
 alias c-encoder='cd $HOME/Documents/production_development/jumper-backend/c-encoder'
 alias parse='cd $HOME/Documents/production_development/jumper-backend/parse-mapper'
+
+# initialize api wrapper for communicating with python services layer 
+alias api='cd $HOME/Documents/production_development/jumper-backend/api'
+alias api-devops='cd $HOME/Documents/production_development/jumper-devops/api-devops'
 
 # initialize jivoo 
 alias jivoo='cd $HOME/Documents/production_development/jivoo/version.1'
