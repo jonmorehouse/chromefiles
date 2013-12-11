@@ -21,7 +21,6 @@ alias g='grunt'
 ###
 #while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; cat index.html; } | nc -l 8080; done
 
-
 ###
 ###	GENERAL DIRECTORY SHORTCUTS
 ###
@@ -44,6 +43,25 @@ alias imagery='cd /Users/MorehouseJ09/Documents/resources/imagery/'
 alias assets='cd ~/Documents/assets'
 
 ###
+### 	Global variables for alias use 
+###
+production_development_directory="$HOME/Documents/production_development"
+program_directory="$HOME/Documents/programs"
+
+###
+###	PROGRAM DIRECTORY SHORTCUTS
+###
+for i in `ls $program_directory`
+do
+	# create the alias helpers
+	aliasName="programs-$i"
+	aliasFunction="cd $program_directory/$i"
+
+	# now go ahead and export the alias
+	eval alias ${aliasName}='${aliasFunction}'
+done
+
+###
 ###	CODE SPECIFIC FOLDER ALIASES
 ###
 alias programs='cd ~/Documents/programs'
@@ -56,15 +74,17 @@ alias notes='general_development && cd notes/'
 alias hacking='/Users/MorehouseJ09/Documents/general_development/hacking'
 alias cheatsheets='/Users/MorehouseJ09/Documents/general_development/cheatsheets'
 alias public_code='cd /Users/MorehouseJ09/Documents/general_development/public_code'
+alias tech_start='cd $HOME/production_development/techstart'
 
 ###
-###	SCRIPT TYPE SPECIFIC ALIASES
+###	Create all the relevant project aliases
 ###
-alias bash_scripts='cd ~/Documents/general_development/helper_programs/bash'
-alias python_scripts='cd ~/Documents/general_development/helper_programs/python'
-alias ruby_scripts='cd /Users/MorehouseJ09/Documents/programs/ruby/scripts'
-alias go_scripts='cd ~/Documents/programs/go'
-alias cpp_scripts='cd ~/Documents/programs/cpp'
+for projectType in ls ~/Documents/programs
+do
+	aliasName="projects-$projectType"
+
+done
+
 
 
 ###
