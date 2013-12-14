@@ -5,6 +5,7 @@ local_directory=~/dotfiles/helpers
 
 
 load $local_directory/amazon.sh #amazon specific
+load $local_directory/general.sh #amazon specific
 load $local_directory/programs.sh #program shortcuts
 load $local_directory/global.sh #useful for global methods that shouldn't go anywhere else
 load $local_directory/redis.sh #useful redis helpers -- not global
