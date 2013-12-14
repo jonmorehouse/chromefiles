@@ -101,7 +101,8 @@ eval alias blog='"cd ${production_development_directory}/jumper/blog"'
 
 # Jumper clients
 eval alias ios='"cd ${production_development_directory}/jumper-ios"'
-eval alias ios-app='"cd ${production_development_directory}/jumper-ios/app"'
+eval alias ios-app-v1='"cd ${production_development_directory}/jumper-ios/iphone-app-v1"'
+eval alias ios-app='"cd ${production_development_directory}/jumper-ios/iphone-app-v2"'
 
 # ios devops go into the ios folder because its soo unrelated to the other devops components
 eval alias ios-devops='"cd ${production_development_directory}/jumper-ios/devops"'
