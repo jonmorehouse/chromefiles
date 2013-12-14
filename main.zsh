@@ -26,6 +26,7 @@ load $directory/helpers/main.sh #these are one liners -- generally will not have
 load $directory/zsh/config.zsh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias r='reload'
 

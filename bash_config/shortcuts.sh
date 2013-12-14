@@ -26,6 +26,7 @@ alias g='grunt'
 ###
 alias document='cd $HOME/Documents'
 alias dotfiles='cd $HOME/dotfiles'
+alias vim-config='cd $HOME/dotfiles/vim'
 alias amazon='cd $HOME/amazon'
 alias download='cd $HOME/Downloads'
 alias desktop='cd $HOME/Desktop'
