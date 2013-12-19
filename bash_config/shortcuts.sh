@@ -83,6 +83,7 @@ eval alias light-dotfiles='"cd /Users/MorehouseJ09/Documents/programs/light-dotf
 ###
 ###	Mobilend / Invidy Projects
 ###
+eval alias mobilend-inc='"cd ${production_development_directory}/mobilend-inc"'
 eval alias invidy='"cd ${production_development_directory}/invidy"'
 eval alias email_app='"cd ${production_development_directory}/thestreetpicks/email_app"'
 
