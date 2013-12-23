@@ -15,6 +15,7 @@ alias back='cd -'
 alias git='hub'
 alias v='vim'
 alias g='grunt'
+alias pod-dev='rvm ruby-2.0.0-p353@ios-devops do $HOME/Documents/production_development/jumper-ios/CocoaPods/bin/pod'
 
 ###
 ###	COOL BASH ONE-LINERS
@@ -32,7 +33,8 @@ alias download='cd $HOME/Downloads'
 alias desktop='cd $HOME/Desktop'
 alias dropbox='cd $HOME/Dropbox'
 alias music='cd $HOME/Music'
-alias movies='cd $HOME/Movies'
+alias movies='cd $HOME/Movies/movies'
+alias shows='cd $HOME/Movies'
 alias picture='cd $HOME/Pictures'
 alias wd160='cd /Volumes/WD160/'
 alias work='cd $HOME/Documents/work'
@@ -67,7 +69,7 @@ eval alias production_development='"cd ${production_development_directory}"'
 eval alias general_development='"cd ${base_directory}/general_development"'
 eval alias alias helper_programs='"cd ${base_directory}/general_development/helper_programs"'
 eval alias public_code='"cd ${base_directory}/general_development/public_code"'
-eval alias techstart='"cd ${base_directory}/techstart"'
+eval alias techstart='"cd ${base_directory}/production_development/techstart"'
 
 ## FINISHED
 
@@ -84,8 +86,9 @@ eval alias light-dotfiles='"cd /Users/MorehouseJ09/Documents/programs/light-dotf
 ###	Mobilend / Invidy Projects
 ###
 eval alias mobilend-inc='"cd ${production_development_directory}/mobilend-inc"'
+eval alias tsp='"cd ${production_development_directory}/mobilend-inc/thestreetpicks/"'
 eval alias invidy='"cd ${production_development_directory}/invidy"'
-eval alias email_app='"cd ${production_development_directory}/thestreetpicks/email_app"'
+eval alias email_app='"cd ${production_development_directory}/mobilend-inc/thestreetpicks/app"'
 
 ### 
 ###	JUMPER GENERAL
