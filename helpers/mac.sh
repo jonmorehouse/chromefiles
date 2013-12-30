@@ -18,6 +18,4 @@ function clean_system {
 # http://apple.stackexchange.com/questions/33736/can-a-terminal-window-be-resized-with-a-terminal-command
 # http://forums.macrumors.com/showthread.php?t=229161
 
-alias spotify='osascript $HOME/dotfiles/bin/spotify_control/SpotifyControl.scpt'
-
 alias pmd='$HOME/dotfiles/bin/pmd/pmd'
