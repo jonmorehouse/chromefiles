@@ -1,16 +1,5 @@
 ###
-###	SYSTEM SHORTCUTS / ALIASES
-###
-# basic navigation helpers
-alias ~='cd ~'
-alias .='cd ..'
-alias ..='cd ../..'
-alias ...='cd ../../..'
-alias ....='cd ../../../..'
-alias back='cd -'
-
-###
-###	PROGRAM SHORTCUTS / ALIASES
+###	LOCAL SYSTEM PROGRAM SHORTCUTS / ALIASES (all others in helpers/general.sh)
 ###
 alias git='hub'
 alias v='vim'
@@ -71,8 +60,6 @@ eval alias alias helper_programs='"cd ${base_directory}/general_development/help
 eval alias public_code='"cd ${base_directory}/general_development/public_code"'
 eval alias techstart='"cd ${base_directory}/production_development/techstart"'
 
-## FINISHED
-
 ###
 ###	GENERAL PROJECTS
 ###
@@ -88,7 +75,7 @@ eval alias light-dotfiles='"cd /Users/MorehouseJ09/Documents/programs/light-dotf
 eval alias mobilend-inc='"cd ${production_development_directory}/mobilend-inc"'
 eval alias tsp='"cd ${production_development_directory}/mobilend-inc/thestreetpicks/"'
 eval alias invidy='"cd ${production_development_directory}/invidy"'
-eval alias email_app='"cd ${production_development_directory}/mobilend-inc/thestreetpicks/app"'
+eval alias email-app='"cd ${production_development_directory}/mobilend-inc/thestreetpicks/app"'
 
 ### 
 ###	JUMPER GENERAL
@@ -96,8 +83,9 @@ eval alias email_app='"cd ${production_development_directory}/mobilend-inc/thest
 eval alias jumper='"cd ${production_development_directory}/jumper"'
 eval alias backend='"cd ${production_development_directory}/jumper-backend"'
 eval alias devops='"cd ${production_development_directory}/jumper-devops"'
-eval alias docs='"cd ${production_development_directory}/jumper-backend/docs"'
+eval alias docs='"cd ${production_development_directory}/jumper/docs"'
 eval alias blog='"cd ${production_development_directory}/jumper/blog"'
+eval alias growth-hacking='"cd ${production_development_directory}/jumper/growth-hacking"'
 
 ### 
 ### 	JUMPER COMPONENTS
@@ -106,7 +94,6 @@ eval alias blog='"cd ${production_development_directory}/jumper/blog"'
 # Jumper clients
 eval alias ios='"cd ${production_development_directory}/jumper-ios"'
 eval alias ios-app-v1='"cd ${production_development_directory}/jumper-ios/iphone-app-v1"'
-eval alias ios-app='"cd ${production_development_directory}/jumper-ios/iphone-app-v2"'
 eval alias ios-app='"cd ${production_development_directory}/jumper-ios/iphone-app-v1"'
 
 # ios devops go into the ios folder because its soo unrelated to the other devops components
@@ -146,4 +133,6 @@ eval alias api-devops='"cd ${production_development_directory}/jumper-devops/api
 # initialize jivoo 
 eval alias jivoo='"cd $home/documents/production_development/jivoo/version.1"'
 
+# remove any left over variables that make navigation weirder
 production_development_directory=""
+
