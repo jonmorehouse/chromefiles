@@ -8,6 +8,7 @@ PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 # link up the correct gcc
 alias gcc='/usr/local/bin/gcc-4.2'
+export CC=
 
 ###
 ### Initialize general BASH settings
