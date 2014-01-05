@@ -8,7 +8,7 @@ PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 # link up the correct gcc
 alias gcc='/usr/local/bin/gcc-4.2'
-export CC=
+#export CC=
 
 ###
 ### Initialize general BASH settings
@@ -20,19 +20,19 @@ HISTSIZE=1000000
 # SYSTEM STUFF
 EDITOR='vim'
 
-# initialize the 
+# initialize basic bash command prompt
 if [[ $SHELL == "/bin/bash" ]]; then
 	export PS1="\[\033[1;30m\]\h:\W \u\$ \[\033[0m\]"
 fi
 
 
 ###
-### Initialize RVM script to boot up properly
+### Initialize RVM script 
 ###
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### 
-###  Initailize virtualenvwrpaper
+###  Initialize virtualenvwrapper
 ### 
 source `which virtualenvwrapper.sh`
 
@@ -54,9 +54,6 @@ export GOROOT
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export PMDPATH=$HOME/dotfiles/bin/pmd/pmd
 
-###
-### Initialize Path Settings and Elements
-###
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # add global gemset into the path
@@ -70,4 +67,3 @@ PATH=$PATH:$HOME/dotfiles/bin
 
 # now export the final path
 export PATH
-

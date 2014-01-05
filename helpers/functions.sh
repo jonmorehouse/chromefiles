@@ -32,10 +32,6 @@ function local_password {
 	security find-generic-password -gs local_password -w | tr -d '\n'
 }
 
-function watch {
-	
-	command watch -n 1 "\"$@\""
-}
 
 # create a function that is useful for loading in custom configuration for local projects
 function custom_shell {

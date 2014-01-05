@@ -8,3 +8,6 @@ alias ..='cd ../..'
 alias ...='cd ../../..'
 alias ....='cd ../../../..'
 alias back='cd -'
+
+alias watch='watch -n 1'
+
