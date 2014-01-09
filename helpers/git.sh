@@ -1,8 +1,8 @@
-alias status='git status --short --branch'
+alias st='git status --short --branch'
 alias co='git checkout'
-alias cim='git commit -a -m'
-alias ci='git commit'
-alias push='git push'
+alias ci='git commit -a -m'
+alias pu='git push'
+alias sta='git stash'
 # save our state to the last push etc
 alias save='git commit -a --amend --no-edit && git push --force'
 alias count_commits='git rev-list HEAD --count'
