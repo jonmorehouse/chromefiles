@@ -2,8 +2,8 @@
 ###	LOCAL SYSTEM PROGRAM SHORTCUTS / ALIASES (all others in helpers/general.sh)
 ###
 alias git='hub'
+alias g='hub'
 alias v='vim'
-alias g='grunt'
 alias pod-dev='rvm ruby-2.0.0-p353@ios-devops do $HOME/Documents/production_development/jumper-ios/CocoaPods/bin/pod'
 alias r='reload'
 
