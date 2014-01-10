@@ -98,10 +98,10 @@ eval alias ios-app-v1='"cd ${production_development_directory}/jumper-ios/iphone
 eval alias ios-app='"cd ${production_development_directory}/jumper-ios/iphone-app-v1"'
 
 # ios devops go into the ios folder because its soo unrelated to the other devops components
-eval alias ios-devops='"cd ${production_development_directory}/jumper-ios/devops"'
+eval alias ios-devops='"cd ${production_development_directory}/jumper-ios/devops && r"'
 
 # web app
-eval alias app='"cd ${production_development_directory}/jumper-web/web-app"'
+eval alias app='"cd ${production_development_directory}/jumper-web/web-app && r"'
 
 # end 2 end testing etc
 eval alias test='"cd ${production_development_directory}/jumper-backend/streaming-integration-tests"'
@@ -110,26 +110,26 @@ eval alias fixtures='"cd ${production_development_directory}/jumper-backend/fixt
 # general devops etc
 eval alias cookbooks='"cd ${production_development_directory}/jumper-devops/cookbooks"'
 eval alias registry='"cd ${production_development_directory}/jumper-devops/internal-docker-registry"'
-eval alias s3-devops='"cd ${production_development_directory}/jumper-devops/s3-devops"'
-eval alias devops-core='"cd ${production_development_directory}/jumper-devops/devops-core"'
-eval alias uploader='"cd ${production_development_directory}/jumper-backend/broadcast-uploader"'
+eval alias s3-devops='"cd ${production_development_directory}/jumper-devops/s3-devops && r"'
+eval alias devops-core='"cd ${production_development_directory}/jumper-devops/devops-core && r"'
+eval alias uploader='"cd ${production_development_directory}/jumper-backend/broadcast-uploader && r"'
 
 # media cluster worker 
-eval alias media-workers='"cd ${production_development_directory}/jumper-backend/media-workers"'
-eval alias media-devops='"cd ${production_development_directory}/jumper-devops/media-devops"'
+eval alias media-workers='"cd ${production_development_directory}/jumper-backend/media-workers && r"'
+eval alias media-devops='"cd ${production_development_directory}/jumper-devops/media-devops && r"'
 
 # python services cluster etc
-eval alias services='"cd ${production_development_directory}/jumper-backend/services"'
-eval alias services-devops='"cd ${production_development_directory}/jumper-devops/services-devops"'
+eval alias services='"cd ${production_development_directory}/jumper-backend/services && r"'
+eval alias services-devops='"cd ${production_development_directory}/jumper-devops/services-devops && r"'
 
 # experimental tools / processes - not in production currently
-eval alias go-media-workers='"cd ${production_development_directory}/jumper-backend/go-media-workers"'
-eval alias c-encoder='"cd ${production_development_directory}/jumper-backend/c-encoder"'
-eval alias parse='"cd ${production_development_directory}/jumper-backend/parse-mapper"'
+eval alias go-media-workers='"cd ${production_development_directory}/jumper-backend/go-media-workers && r"'
+eval alias c-encoder='"cd ${production_development_directory}/jumper-backend/c-encoder && r"'
+eval alias parse='"cd ${production_development_directory}/jumper-backend/parse-mapper && r"'
 
 # initialize api wrapper for communicating with python services layer 
-eval alias api='"cd ${production_development_directory}/jumper-backend/api"'
-eval alias api-devops='"cd ${production_development_directory}/jumper-devops/api-devops"'
+eval alias api='"cd ${production_development_directory}/jumper-backend/api && r"'
+eval alias api-devops='"cd ${production_development_directory}/jumper-devops/api-devops && r"'
 
 # initialize jivoo 
 eval alias jivoo='"cd $home/documents/production_development/jivoo/version.1"'
