@@ -6,6 +6,8 @@ alias g='hub'
 alias v='vim'
 alias pod-dev='rvm ruby-2.0.0-p353@ios-devops do $HOME/Documents/production_development/jumper-ios/CocoaPods/bin/pod'
 alias r='reload'
+alias ec2-host='ec2-host -r us-west-1'
+
 
 ###
 ###	COOL BASH ONE-LINERS
@@ -31,6 +33,7 @@ alias work='cd $HOME/Documents/work'
 alias startups='cd $HOME/Documents/start_ups'
 alias temp='cd $HOME/Documents/temp'
 alias blogs='cd $HOME/Documents/general_development/blogs'
+alias b='cd $HOME/Documents/backlog'
 
 ###
 ### 	Global variables for alias use 
