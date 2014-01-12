@@ -1,6 +1,7 @@
 alias st='git status --short --branch'
 alias co='git checkout'
 alias ci='git commit -a -m'
+alias am='git commit -a --amend --no-edit'
 alias pu='git push'
 alias sta='git stash'
 # save our state to the last push etc

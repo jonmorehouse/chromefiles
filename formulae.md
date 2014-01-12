@@ -101,6 +101,7 @@
 * libogg
 * libplist
 * libpng
+* libpqxx
 * libsigc++
 * libsoup
 * libtasn1
@@ -164,6 +165,7 @@
 * png2ico
 * pngpaste
 * popt
+* postgresql
 * proxytunnel
 * pth
 * pwgen
@@ -196,7 +198,9 @@
 * speex
 * sphinx
 * sqlite
+* temp
 * tesseract
+* test
 * texi2html
 * theora
 * thrift
