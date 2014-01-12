@@ -8,6 +8,7 @@ load $local_directory/global.sh #useful for global methods that shouldn't go any
 load $local_directory/git.sh #useful for global methods that shouldn't go anywhere else
 
 load $local_directory/functions.sh 
+load $local_directory/mac.sh 
 load $local_directory/tmux.sh #global tmux configuration
 load $local_directory/ls.sh #load in the custom listing command
 load $local_directory/images.sh #load image helpers etc 

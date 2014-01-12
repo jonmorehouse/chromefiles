@@ -1,26 +1,28 @@
-[user]
-	name = Jon Morehouse
-	email = morehousej09@gmail.com
-[credential]
-	helper = osxkeychain
 [core]
 	
-   excludesfile = /Users/MorehouseJ09/dotfiles/config/gitignore
+	excludesfile = ~/dotfiles/config/gitignore
 	editor = vim
+
+[push]
+	default = matching
+
+[color]
+	ui = true
 
 [alias]
 
-  st = status
-  ci = commit
-  br = branch
-  co = checkout
-  df = diff
-  lg = log -p
-	
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
+
+# useful for hub commands
 [github]
-	user = jonmorehouse
 	password = !security find-generic-password -gs github.password -w | tr -d '\n'
-[push]
-	default = matching
-[color]
-	ui = true
+	
+[credential]
+	helper = osxkeychain
+
+
