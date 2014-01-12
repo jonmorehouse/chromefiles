@@ -40,6 +40,7 @@
 * gd
 * gdbm
 * gdk-pixbuf
+* gearman
 * geoip
 * gettext
 * ghc
@@ -163,7 +164,6 @@
 * png2ico
 * pngpaste
 * popt
-* postgresql
 * proxytunnel
 * pth
 * pwgen
