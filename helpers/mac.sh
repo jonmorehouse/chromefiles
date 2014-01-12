@@ -17,5 +17,3 @@ function clean_system {
 # alias terminal_left='$(printf "\e[3;0;0t\")'
 # http://apple.stackexchange.com/questions/33736/can-a-terminal-window-be-resized-with-a-terminal-command
 # http://forums.macrumors.com/showthread.php?t=229161
-
-alias pmd='$HOME/dotfiles/bin/pmd/pmd'
