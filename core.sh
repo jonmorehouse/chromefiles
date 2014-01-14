@@ -12,7 +12,6 @@ function save_brew {
 
 save_brew
 
-
 # specialized loader function
 function load {
 
@@ -27,10 +26,8 @@ function load {
 
 # create a list of all files that need to be loaded
 files=(
-
 	# initialize global configuration elements
 	$directory/helpers/load.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
-	$directory/config/auto_completions.zsh #load in zsh auto completions
 
 	# initialize personal helpers as needed
 	$directory/personal/aliases.sh #include the proper directory shortcuts I have configured
