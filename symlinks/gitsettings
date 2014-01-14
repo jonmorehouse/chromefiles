@@ -24,6 +24,7 @@
 	m = merge --no-commit --no-ff
 	me = merge
 	st = stash
+	p = push
 
 # useful for hub commands
 [github]
