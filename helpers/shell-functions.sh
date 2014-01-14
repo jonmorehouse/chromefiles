@@ -11,6 +11,20 @@ function path {
 	echo "${_path}"
 }
 
+# create a function to restart a directory project that is being watched
+function local_restart {
+
+        if [[ -f ./.restart ]]; then
+
+                touch ./.restart
+
+        elif [[ -f ./.restart.py ]]; then
+
+                touch ./.restart.py
+        fi
+
+}
+
 # create a function that is useful for loading in custom configuration for local projects
 function custom_shell {
 
@@ -30,10 +44,10 @@ function reload {
 	# check to see if current shell is zsh or not so we can load proper main files
 	if [[ $SHELL == */zsh ]];then
 
-		source $HOME/dotfiles/main.zsh		
+		source $HOME/dotfiles/bootstrap.sh
 	else
 		
-		source $HOME/dotfiles/main.sh		
+		source $HOME/dotfiles/bootstrap.sh		
 	fi
 	
 	# load up any .shell_configs
