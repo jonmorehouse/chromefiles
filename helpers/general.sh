@@ -38,8 +38,6 @@ alias permissions='gstat -c "%a %n"'
 # start a simple server
 alias simple_server='python -m SimpleHTTPServer'
 
-
-
-
+alias ec2-host='ec2-host -r $AWS_REGION'
 
 
