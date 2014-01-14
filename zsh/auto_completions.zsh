@@ -1,2 +1,0 @@
-compctl -k "()" brew install
-

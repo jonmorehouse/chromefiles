@@ -27,7 +27,7 @@ unsetopt cdablevarS
 unsetopt correct_all
 
 # source our bash core 
-source $HOME/dotfiles/core.sh
+source $HOME/dotfiles/bootstrap.sh
 
 compctl -k "()" brew install
 
@@ -42,8 +42,5 @@ bindkey '^R' history-incremental-search-backward
 # history settings
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
-
-
-
 
 
