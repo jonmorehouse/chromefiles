@@ -11,12 +11,19 @@
 
 [alias]
 
-	st = status
-	ci = commit
-	br = branch
-	co = checkout
+	sa = commit -a --amend --no-edit 
+	a = add
+	s = status --short --branch
+	i = commit -m 
+	b = branch
+	ba = branch -a
+	c = checkout
 	df = diff
 	lg = log -p
+	pup = submodule foreach --recursive git submodule update --init
+	m = merge --no-commit --no-ff
+	me = merge
+	st = stash
 
 # useful for hub commands
 [github]
