@@ -18,5 +18,6 @@ alias count_commits='git rev-list HEAD --count'
 #Checkout an older version
 #git co HEAD~n .
 #git co HEAD~n -- filename
-alias git-update='git submodule foreach "git add --all && git fetch && git checkout master && git pull origin master && git reset --hard HEAD"'
+alias git-pup='git submodule foreach --recursive "git submodule update --init"'
+
 
