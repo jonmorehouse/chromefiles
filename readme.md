@@ -15,6 +15,12 @@ Notes
 * Look in core.sh to observe how dependencies are loaded
 * all personal configuration goes in personal
 
+References / Inspiration
+------------------------
+
+* [dotfiles.github.io](http://dotfiles.github.io/)
+* [Adam V Dotfiles](https://github.com/adamv/dotfiles)
+
 
 
 

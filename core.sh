@@ -29,7 +29,7 @@ function load {
 files=(
 
 	# initialize global configuration elements
-	$directory/helpers/main.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
+	$directory/helpers/load.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 	$directory/config/auto_completions.zsh #load in zsh auto completions
 
 	# initialize personal helpers as needed
