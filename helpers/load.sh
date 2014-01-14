@@ -5,6 +5,7 @@ local_directory=~/dotfiles/helpers
 ignored=(
 
 	"load.sh"
+	"zshell-theme.zsh"
 )
 
 for file in `ls $local_directory`

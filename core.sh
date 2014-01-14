@@ -26,10 +26,9 @@ files=(
 	$directory/personal/machines.sh
 )
 
-# load each of the files in 
+# load each of the into our current shell
 for file in $files
 do
-
 	load $file
 done
 

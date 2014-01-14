@@ -1,10 +1,10 @@
 [core]
 	
-	excludesfile = ~/dotfiles/config/gitignore
+	excludesfile = ~/.gitignore
 	editor = vim
 
 [push]
-	default = matching
+	default = simple
 
 [color]
 	ui = true
