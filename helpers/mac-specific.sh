@@ -39,6 +39,8 @@ function eject {
 	diskutil eject $1
 }
 
+
+# show current power on the command line
 function power {
 
 	/usr/sbin/ioreg -l | awk 'BEGIN{a=0;b=0} 

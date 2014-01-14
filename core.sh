@@ -2,16 +2,6 @@
 # in the future 
 directory=$HOME/dotfiles
 
-# save homebrew each time we run this script
-function save_brew {
-
-	# brew is where everything gets installed on this machine
-	# if you don't have a formula, create it!
-	brew list | awk '{ print "* " $1 }' | >  $directory/formulae.md
-}
-
-save_brew
-
 # specialized loader function
 function load {
 
