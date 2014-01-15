@@ -10,20 +10,45 @@
 
 [alias]
 
+	# clone shortcut
+	cl = clone
+
+	# save current commit and ammend
 	sa = commit -a --amend --no-edit 
+
+	# add helpers
 	a = add
+	aa = add --all
+
+	# status + logs
 	s = status --short --branch
+	lg = log -p
+
+	# push + pull
+	p = push
+	pu = push
+
+	# commits
 	i = commit -m 
+	ia = commit -a -m
+
+	# branch aliases
 	b = branch
 	ba = branch -a
+
+	# 
 	c = checkout
 	df = diff
-	lg = log -p
+
+	# submodule additions
 	pup = submodule foreach --recursive git submodule update --init
+
+	# merge helpers
 	m = merge --no-commit --no-ff
 	me = merge
+
+	# stash / fetch shortcuts
 	st = stash
-	p = push
 	f = fetch
 
 # useful for hub commands
@@ -38,6 +63,8 @@
         insteadOf = "gh:"
         pushInsteadOf = "github:"
         pushInsteadOf = "git://github.com/"
+
+# example: g clone gist://$GISTID
 [url "git@gist.github.com:"]
         insteadOf = "gist:"
         pushInsteadOf = "gist:"
