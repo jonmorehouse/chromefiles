@@ -1,3 +1,9 @@
+# initialize a path segment -- grab relative path
+function path_tail {
+
+	echo `pwd` | awk '{ n=split($1,a,"/")} END{ print a[n-1] "/" a[n] }'
+}
+
 # get the absolute path of a file
 function path {
 
