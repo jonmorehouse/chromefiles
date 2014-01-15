@@ -26,6 +26,7 @@
 
 	# push + pull
 	p = push
+	pf = push --force
 	pu = push
 
 	# commits
