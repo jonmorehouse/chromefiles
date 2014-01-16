@@ -56,3 +56,11 @@ components* #this is the bower install
 
 ########## GLOBAL FILES ############
 *s3cfg
+
+########## Python Specific FILES ############
+.Python
+*bin/
+*include/
+*lib/
+*eggs/
+*.Python
