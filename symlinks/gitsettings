@@ -19,6 +19,9 @@
 	# configuration
 	cn = config --list
 	bb = browse
+	
+	# help command shortcut
+	h = help
 
 	# clone shortcut
 	cl = clone
@@ -68,6 +71,12 @@
 	
 	# list versioned files on the head
 	lh = ls-tree -r --name-only HEAD
+
+	# tag shortcuts
+	tl = tag --list
+	tp = push --tags 
+	t = tag
+	th = help tag
 
 # useful for hub commands
 [github]
