@@ -64,3 +64,8 @@ components* #this is the bower install
 *lib/
 *eggs/
 *.Python
+man/
+*egg
+*egg/
+*egg-info
+*egg-info/
