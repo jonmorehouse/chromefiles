@@ -39,7 +39,10 @@
 
 	# 
 	c = checkout
+
+	# diff helpers
 	df = diff
+	d = diff
 
 	# submodule additions
 	pup = submodule foreach --recursive git submodule update --init
