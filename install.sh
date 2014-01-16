@@ -1,5 +1,5 @@
 # install submodules if not properly installed
-git submodule 
+git submodule foreach --recursive git submodule update --init
 
 # install oh-my-zshell
 if [ ! -d $HOME/.oh-my-zsh ]

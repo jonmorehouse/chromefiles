@@ -16,10 +16,13 @@
 
 [alias]
 
+	# configuration
 	cn = config --list
 	bb = browse
+
 	# clone shortcut
 	cl = clone
+	in = init
 
 	# save current commit and ammend
 	sa = commit -a --amend --no-edit 
