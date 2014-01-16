@@ -11,11 +11,12 @@ function clear-virtualenv {
 	rm -rf bin/ build/ include/ lib/
 	rm -rf man
 	rm -rf .Python
+	rm -rf docs
 
 	# now remove egg files as needed
 	rm -rf *egg(N)
+	rm -rf *eggs(N)
 	rm -rf *egg-info(N)
-
 }
 
 function install-virtualenv {
@@ -37,9 +38,5 @@ function install-virtualenv {
 		pip install --ignore-installed -r $i --src eggs
 	done
 }
-
-
-
-
 
 
