@@ -2,14 +2,22 @@
 	excludesfile = ~/.gitignore
 	editor = vim
 
+[init]
+
+	templatedir = ~/dotfiles/git-template
+
 [push]
 	default = simple
+
 
 [color]
 	ui = true
 
+
 [alias]
 
+	cn = config --list
+	bb = browse
 	# clone shortcut
 	cl = clone
 
@@ -54,6 +62,9 @@
 	# stash / fetch shortcuts
 	st = stash
 	f = fetch
+	
+	# list versioned files on the head
+	lh = ls-tree -r --name-only HEAD
 
 # useful for hub commands
 [github]
