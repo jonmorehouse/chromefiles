@@ -43,6 +43,7 @@
 	pf = push --force
 	pu = push
 	pt = push --tags
+	pq = push --force
 
 	# commits
 	i = commit -m 
