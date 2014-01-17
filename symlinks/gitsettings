@@ -42,6 +42,7 @@
 	p = push
 	pf = push --force
 	pu = push
+	pt = push --tags
 
 	# commits
 	i = commit -m 
@@ -75,7 +76,7 @@
 	# tag shortcuts
 	tl = tag --list
 	tp = push --tags 
-	t = tag
+	tt = tag
 	th = help tag
 
 # useful for hub commands

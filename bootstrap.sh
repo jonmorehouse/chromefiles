@@ -16,6 +16,10 @@ function load {
 
 # create a list of all files that need to be loaded
 files=(
+
+	# initialize system profile
+	/etc/profile
+
 	# initialize global configuration elements
 	$directory/helpers/load.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
