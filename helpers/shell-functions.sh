@@ -1,3 +1,9 @@
+function remove_function {
+
+    type $1 | grep -q 'shell function'
+
+}
+
 # initialize a path segment -- grab relative path
 function path_tail {
 
