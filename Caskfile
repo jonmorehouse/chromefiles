@@ -1,3 +1,10 @@
 install pandoc
 install mactex
 install xquartz
+install dropbox
+install vagrant
+install sizeup
+install wunderlist
+install vlc
+install virtualbox
+
