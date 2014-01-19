@@ -7,3 +7,6 @@
 [submodule "git-template"]
 	path = git-template
 	url = git@github.com:jonmorehouse/git-template
+[submodule "dependencies/mutt-colors-solarized"]
+	path = dependencies/mutt-colors-solarized
+	url = git@github.com:altercation/mutt-colors-solarized
