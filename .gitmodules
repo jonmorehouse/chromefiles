@@ -1,12 +1,6 @@
-[submodule "bin/spotify_control"]
-	path = bin/spotify_control
-	url = https://github.com/dronir/SpotifyControl
-[submodule "bin/pmd"]
-	path = bin/pmd
-	url = git://github.com/MorehouseJ09/pmd.git
 [submodule "vim"]
 	path = vim
-	url = git@github.com:MorehouseJ09/vim
+	url = git@github.com:jonmorehouse/vim
 [submodule "scripts"]
 	path = scripts
 	url = git@github.com:jonmorehouse/scripts
