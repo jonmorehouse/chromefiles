@@ -21,3 +21,20 @@ echo "[include]\n\tpath = $HOME/.gitsettings\n\n" >> $HOME/.gitconfig
 vim/install.sh
 
 # run brew bundle on your own time -- in case there are issues ...
+brew bundle
+
+# now lets run all of the commands in our cask file -- lets make a patch on this later
+for line in `cat Caskfile | grep -v \#`
+do
+	cask $line
+done
+
+# bootstrap rvm 
+if [ ! -d $HOME/.rvm ]
+then
+	curl -sSL https://get.rvm.io | bash -s stable --ruby
+	source $HOME/bootstrap
+	rvm install 2.0.0
+fi
+
+
