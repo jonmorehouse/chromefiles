@@ -11,7 +11,12 @@ Notes
 -----
 
 * Look in core.sh to observe how dependencies are loaded
-* all personal configuration goes in personal
+* backup this folder on your own
+* all personal configuration goes in personal 
+  
+  * ex: gitconfig (with your tokens)
+  * ex: tmuxinator folder for symlinking into HOME/.tmuxinator
+  * ex: muttrc that includes the symlinked global muttrc
 
 References / Inspiration
 ------------------------
