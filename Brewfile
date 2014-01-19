@@ -133,10 +133,6 @@
 * mpc
 * mpfr
 * mydumper
-* mysql
-* mysql++
-* mysql-connector-c
-* mysql-connector-c++
 * nave
 * netcat
 * nettle
