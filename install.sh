@@ -26,10 +26,10 @@ brew bundle
 # now lets run all of the commands in our cask file -- lets make a patch on this later
 for line in `cat Caskfile | grep -v \#`
 do
-	cask $line
+	brew cask $line
 done
 
-# bootstrap rvm 
+# bootstrap rvm if its not already installed
 if [ ! -d $HOME/.rvm ]
 then
 	curl -sSL https://get.rvm.io | bash -s stable --ruby
