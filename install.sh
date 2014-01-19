@@ -1,4 +1,7 @@
 # install submodules if not properly installed
+# make this script callable from anywhere!
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 git submodule foreach --recursive git submodule update --init
 
 # install oh-my-zshell
@@ -8,33 +11,21 @@ then
 fi
 
 # install symlinks
-for symlink in `ls symlinks`
+for symlink in `ls symlinks | grep -v plist`
 do
 	# override any symlinks currently existing
 	ln -f -s `pwd`/symlinks/$symlink $HOME/.$symlink
 done
 
-# update gitconfig -- append correct element to the top of our current gitconfig file
-echo "[include]\n\tpath = $HOME/.gitsettings\n\n" >> $HOME/.gitconfig
-
-# install vim script
-vim/install.sh
-
-# run brew bundle on your own time -- in case there are issues ...
-brew bundle
-
-# now lets run all of the commands in our cask file -- lets make a patch on this later
-for line in `cat Caskfile | grep -v \#`
+# now install all launchagent plist files into the launchagents directory
+for symlink in `ls symlinks | grep plist` 
 do
-	brew cask $line
+	# install the symlink (forcefully) 
+	ln -f -s $DIR/symlinks/$symlink $HOME/Library/LaunchAgents/$symlink
+
 done
 
-# bootstrap rvm if its not already installed
-if [ ! -d $HOME/.rvm ]
-then
-	curl -sSL https://get.rvm.io | bash -s stable --ruby
-	source $HOME/bootstrap
-	rvm install 2.0.0
-fi
+# install vim script
+#vim/install.sh
 
 
