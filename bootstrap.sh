@@ -25,7 +25,6 @@ files=(
 
 	# initialize personal helpers as needed
 	$directory/personal/aliases.sh #include the proper directory shortcuts I have configured
-	$directory/personal/config.sh  #general system configuration
 )
 
 # load each of the into our current shell
