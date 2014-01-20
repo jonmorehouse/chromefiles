@@ -60,6 +60,7 @@
 	d = diff
 
 	# submodule additions
+	pu = pull
 	pup = submodule foreach --recursive git submodule update --init
 
 	# merge helpers

@@ -26,7 +26,6 @@ files=(
 	# initialize personal helpers as needed
 	$directory/personal/aliases.sh #include the proper directory shortcuts I have configured
 	$directory/personal/config.sh  #general system configuration
-	$directory/personal/machines.sh
 )
 
 # load each of the into our current shell
@@ -35,11 +34,10 @@ do
 	load $file
 done
 
-# load in our exports config 
-if [ -f $directory/personal/personal.exports ]
-then
+# load all of our export settings into this shell
+for file in `ls $directory/personal/*.exports`
+do
+	\. $HOME/dotfiles/scripts/load_export_file $file
+done
 
-	\. load_export_file $directory/personal/personal.exports 
-
-fi
 
