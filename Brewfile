@@ -2,6 +2,7 @@ tap jonmorehouse/tap
 tap caskroom/versions
 tap phinze/cask
 
+install mutt --with-trash-patch
 install cask
 install aircrack-ng
 install ant
