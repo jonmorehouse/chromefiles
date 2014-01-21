@@ -37,10 +37,10 @@
 	s = status --short --branch
 	lg = log -p
 
-	# push + pull
+	# push 
 	p = push
 	pf = push --force
-	pu = push
+	pi = push --set-upstream origin master
 	pt = push --tags
 	pq = push --force
 
