@@ -43,3 +43,5 @@ bindkey '^R' history-incremental-search-backward
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

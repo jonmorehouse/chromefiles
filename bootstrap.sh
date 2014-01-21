@@ -20,6 +20,9 @@ files=(
 	# initialize system profile
 	/etc/profile
 
+	# if rvm is installed we need to load its configuration bootstrap
+	$HOME/.rvm/scripts/rvm
+
 	# initialize global configuration elements
 	$directory/helpers/load.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
