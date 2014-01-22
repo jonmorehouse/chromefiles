@@ -31,6 +31,7 @@ alias history='fc -l 1'
 
 # watch a command
 alias watch='watch -n 1'
+alias watch_dir='watch -n 1 "du -sh *"'
 
 # show numberical permissions on file
 alias permissions='gstat -c "%a %n"'
