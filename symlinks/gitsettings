@@ -40,7 +40,7 @@
 	# push 
 	p = push
 	pf = push --force
-	pi = push --set-upstream origin master
+	pi = push --set-upstream
 	pt = push --tags
 	pq = push --force
 
