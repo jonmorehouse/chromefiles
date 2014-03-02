@@ -6,9 +6,7 @@ directory=$HOME/dotfiles
 function load {
 
 	if [[ -e "${1}" ]]; then
-
 		source ${1}
-
 	else	
 		echo "File not found. ${1}"
 	fi
@@ -37,9 +35,16 @@ do
 done
 
 # load all of our export settings into this shell
+# all exports are loaded up 
 for file in `ls $directory/personal/*.exports`
 do
 	\. $HOME/dotfiles/scripts/load_export_file $file
 done
+
+# load in a default exports file if applicable 
+if [[ ! -z "$EXPORTS_FILE" && -f $EXPORTS_FILE ]]
+then
+	\. $HOME/dotfiles/scripts/load_export_file $EXPORTS_FILE
+fi
 
 
