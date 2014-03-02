@@ -1,7 +1,7 @@
 function alias_generator {
 	# generate the alias path as needed
 	alias_path="$1"
-	if [ $# -eq 2 ]
+	if [ $# -gt 1 ]
 	then 
 		# if _ or "" is passed in, then we want to just pass in a blank
 		if [[ $2 == "_" || $2 == "" ]]
@@ -80,8 +80,6 @@ function custom_shell {
 	fi
 	
 }
-
-
 
 function reload {
 	
