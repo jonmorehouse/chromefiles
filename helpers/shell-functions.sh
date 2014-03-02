@@ -1,3 +1,27 @@
+function alias_generator {
+	# generate the alias path as needed
+	alias_path="$1"
+	if [ $# -eq 2 ]
+	then 
+		# if _ or "" is passed in, then we want to just pass in a blank
+		if [[ $2 == "_" || $2 == "" ]]
+		then
+			alias_prefix=""
+		else
+			alias_prefix="$2-"
+		fi
+	else 
+		alias_prefix="$(echo $1 | awk '{ n=split($0,a,"/"); print tolower(a[n]) }')-"
+	fi
+	# generate and export the aliases as needed
+	for i in $(ls "$alias_path") 
+	do
+		alias_name="$alias_prefix$i"
+		alias_function="cd $alias_path/$i"
+		eval alias ${alias_name}='${alias_function}'
+	done
+}
+
 function remove_function {
 
     type $1 | grep -q 'shell function'
