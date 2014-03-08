@@ -43,7 +43,6 @@
 	pf = push --force
 	pi = push --set-upstream
 	pt = push --tags
-	pq = push --force
 
 	# commits
 	i = commit -m 
@@ -53,8 +52,9 @@
 	b = branch
 	ba = branch -a
 
-	# 
+	# checkout 
 	c = checkout
+	co = checkout
 
 	# diff helpers
 	df = diff
@@ -77,7 +77,7 @@
 
 	# tag shortcuts
 	tl = tag --list
-	tp = push --tags 
+	pp = push --tags 
 	tt = tag
 	th = help tag
 
