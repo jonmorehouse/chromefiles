@@ -47,6 +47,3 @@ then
 	\. $HOME/dotfiles/scripts/load_export_file $EXPORTS_FILE
 fi
 
-
-
-

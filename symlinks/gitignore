@@ -69,3 +69,7 @@ man/
 *egg/
 *egg-info
 *egg-info/
+
+####### VAGRANT ignores #####
+.vagrant/
+
