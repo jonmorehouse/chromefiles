@@ -12,6 +12,7 @@ function clear-virtualenv {
 	rm -rf man
 	rm -rf .Python
 	rm -rf docs
+	rm -rf dist
 
 	# now remove egg files as needed
 	rm -rf *egg(N)
