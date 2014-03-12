@@ -25,6 +25,7 @@ DISABLE_AUTO_TITLE="true"
 # Zshell specific options
 unsetopt cdablevarS
 unsetopt correct_all
+unsetopt nomatch
 
 # source our bash core 
 source $HOME/dotfiles/bootstrap.sh

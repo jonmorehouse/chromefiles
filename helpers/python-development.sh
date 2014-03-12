@@ -33,7 +33,7 @@ function install-virtualenv {
 	# source teh element
 	source bin/activate
 
-	for i in `ls *requirements.txt` 
+	for i in `ls *requirements.txt 2> /dev/null` 
 	do
 		echo $i
 		pip install --ignore-installed -r $i --src eggs
