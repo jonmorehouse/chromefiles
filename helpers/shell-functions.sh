@@ -14,10 +14,10 @@ function backlog {
 	do
 		message="$message="
 	done
-	message="$message\n\nTodo\n-----\n\n\nCompleted\n---------\n\n"
+	message="$message\n\nCompleted\n---------\n\n\n\nTodo\n-----\n\n\n"
 
 	# upload file structure as needed
-	if [[ ! -f $file_path ]] 
+	if [[ ! -f $file_path || $(cat $file_path | wc -w) -eq 0 ]] 
 	then
 		echo -e $message > $file_path
 		# now add the files and commit as needed
