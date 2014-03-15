@@ -21,7 +21,7 @@ function backlog {
 	then
 		echo -e $message > $file_path
 		# now add the files and commit as needed
-		git add --all
+		git add --all .
 		git commit -m $date_message -a
 	fi
 
@@ -30,7 +30,6 @@ function backlog {
 
 	# now open the file in the editor
 	$EDITOR $file_path
-
 }
 
 function remove_function {
