@@ -61,7 +61,6 @@ components* #this is the bower install
 .Python
 *bin/
 *include/
-*lib/
 *eggs/
 *.Python
 man/
