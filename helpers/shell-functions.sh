@@ -1,37 +1,3 @@
-function backlog {
-	
-	# assumes you are in the backlog directory
-	# create file contents as needed
-	# link readme each day - easy github management
-	# create proper commit message
-	file=$(date | awk '{ print tolower($1)"-"tolower($2)"-"$3 }')
-	file_path=current/$file.md
-
-	# generate file contents
-	date_message=$(date | awk '{ print $1" "$2" "$3 }')
-	message="$date_message\n"
-	for i in {0..${#date_message}}
-	do
-		message="$message="
-	done
-	message="$message\n\nCompleted\n---------\n\n\n\nTodo\n-----\n\n\n"
-
-	# upload file structure as needed
-	if [[ ! -f $file_path || $(cat $file_path | wc -w) -eq 0 ]] 
-	then
-		echo -e $message > $file_path
-		# now add the files and commit as needed
-		git add --all .
-		git commit -m $date_message -a
-	fi
-
-	# readme should always show today!
-	ln -f -s $file_path README.md
-
-	# now open the file in the editor
-	$EDITOR $file_path
-}
-
 function remove_function {
 
     type $1 | grep -q 'shell function'
