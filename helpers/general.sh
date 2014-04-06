@@ -42,4 +42,10 @@ alias simple_server='python -m SimpleHTTPServer'
 alias ec2-host='ec2-host -r $AWS_REGION'
 alias ec2-ssh='ec2-ssh -r $AWS_REGION'
 
+# awk shortcuts
+for i in {1..20}
+do
+  command="awk '{ print \$$i }'"
+  eval alias "awk$i"='${command}'
+done
 

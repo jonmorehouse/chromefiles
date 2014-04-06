@@ -72,3 +72,5 @@ man/
 ####### VAGRANT ignores #####
 .vagrant/
 
+###
+node_modules/
