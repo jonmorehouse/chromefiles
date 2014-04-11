@@ -77,10 +77,10 @@
 	lh = ls-tree -r --name-only HEAD
 
 	# tag shortcuts
-	tl = tag --list
-	pp = push --tags 
-	tt = tag
 	t = tag
+	td = tag --delete
+	tl = tag --list
+	pt = push --tags 
 	th = help tag
 
 # useful for hub commands
