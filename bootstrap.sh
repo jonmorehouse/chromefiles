@@ -41,6 +41,7 @@ do
 	\. $HOME/dotfiles/scripts/load_env_file $file
 done
 
+
 # load in a default exports file if applicable 
 if [[ ! -z "$EXPORTS_FILE" && -f $EXPORTS_FILE ]]
 then

@@ -3,7 +3,6 @@
 	editor = vim
 
 [init]
-
 	templatedir = ~/dotfiles/git-template
 
 [push]
@@ -14,7 +13,6 @@
 
 
 [alias]
-
 	# configuration
 	cn = config --list
 	bb = browse
