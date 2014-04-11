@@ -80,6 +80,7 @@
 	tl = tag --list
 	pp = push --tags 
 	tt = tag
+	t = tag
 	th = help tag
 
 # useful for hub commands
