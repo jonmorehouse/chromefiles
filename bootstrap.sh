@@ -38,12 +38,12 @@ done
 # all exports are loaded up 
 for file in `ls $directory/personal/*.exports`
 do
-	\. $HOME/dotfiles/scripts/load_export_file $file
+	\. $HOME/dotfiles/scripts/load_env_file $file
 done
 
 # load in a default exports file if applicable 
 if [[ ! -z "$EXPORTS_FILE" && -f $EXPORTS_FILE ]]
 then
-	\. $HOME/dotfiles/scripts/load_export_file $EXPORTS_FILE
+	\. $HOME/dotfiles/scripts/load_env_file $EXPORTS_FILE
 fi
 
