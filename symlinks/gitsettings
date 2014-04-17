@@ -1,92 +1,102 @@
 [core]
-	excludesfile = ~/.gitignore
-	editor = vim
+  excludesfile = ~/.gitignore
+  editor = vim
 
 [init]
-	templatedir = ~/dotfiles/git-template
+  templatedir = ~/dotfiles/git-template
 
 [push]
-	default = simple
+  default = simple
 
 [color]
-	ui = true
+  ui = true
 
 
 [alias]
-	# configuration
-	cn = config --list
-	bb = browse
-	
-	# help command shortcut
-	h = help
+  # configuration
+  cn = config --list
+  bb = browse
+  
+  # help command shortcut
+  h = help
 
-	# clone shortcut
-	cl = clone
-	in = init
+  # clone shortcut
+  cl = clone
+  in = init
 
-	# save current commit and ammend
-	sa = commit -a --amend --no-edit 
+  # save current commit and ammend
+  sa = commit -a --amend --no-edit 
 
-	# add helpers
-	a = add
-	aa = add --all
+  # add helpers
+  a = add
+  aa = add --all
 
-	# status + logs
-	s = status --short --branch
-	# from http://fredkschott.com/post/2014/02/git-log-is-so-2005/
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+  # status + logs
+  s = status --short --branch
+  # from http://fredkschott.com/post/2014/02/git-log-is-so-2005/
+  lg = log --color --date=local --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 
-	# push  / pull
-	p = push
-	pf = push --force
-	pi = push --set-upstream
-	pt = push --tags
-	pu = pull
+  # push
+  p = push
+  pf = push --force
+  pi = push --set-upstream
+  pt = push --tags
 
-	# commits
-	i = commit -m 
-	ia = commit -a -m
+  # pull
+  pu = pull
+  new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
 
-	# branch aliases
-	b = branch
-	ba = branch -a
+  # commits
+  i = commit -m 
+  ia = commit -a -m
 
-	# checkout 
-	c = checkout
-	co = checkout
+  # branch aliases
+  b = branch
+  ba = branch -a
 
-	# diff helpers
-	df = diff
-	d = diff
+  # checkout 
+  c = checkout
+  co = checkout
 
-	# submodule additions
-	su = submodule foreach --recursive git submodule update --init
-	sr = submodule foreach --recursive "git  add --all . && git stash && git fetch && git checkout master"
+  # diff helpers
+  df = diff
+  d = diff
 
-	# merge helpers
-	m = merge --no-commit --no-ff
-	me = merge
+  # submodule additions
+  su = submodule foreach --recursive git submodule update --init
+  sr = submodule foreach --recursive "git  add --all . && git stash && git fetch && git checkout master"
 
-	# stash / fetch shortcuts
-	st = stash
-	f = fetch
-	
-	# list versioned files on the head
-	lh = ls-tree -r --name-only HEAD
+  # merge helpers
+  m = merge --no-commit --no-ff
+  me = merge
 
-	# tag shortcuts
-	t = tag
-	td = tag --delete
-	tl = tag --list
-	pt = push --tags 
-	th = help tag
+  # stash / fetch shortcuts
+  st = stash
+  f = fetch
+  
+  # list versioned files on the head
+  lh = ls-tree -r --name-only HEAD
+
+  # tag shortcuts
+  t = tag
+  td = tag --delete
+  tl = tag --list
+  pt = push --tags 
+  th = help tag
+
+  # temp / trial
+  changes = diff --name-status -r
+  diffstat = diff --stat -r
+  # playground
+  #q = "!q() { git "${@}" };q"
+  #pq = !sh -c 'git push "$@" >> /tmp/null 2&> /tmp/null &'
 
 # useful for hub commands
 [github]
-	password = !security find-generic-password -gs github.password -w | tr -d '\n'
-	
+  password = !security find-generic-password -gs github.password -w | tr -d '\n'
+  
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 
 # url shorthands
 [url "git@github.com:"]
