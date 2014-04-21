@@ -75,7 +75,7 @@
   f = fetch
   
   # list versioned files on the head
-  lh = ls-tree -r --name-only HEAD
+  ls = ls-tree -r --name-only HEAD
 
   # tag shortcuts
   t = tag
