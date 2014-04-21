@@ -45,6 +45,7 @@
   # pull
   pu = pull
   new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
+  fp = !sh -c 'git fetch && git pull'
 
   # commits
   i = commit -m 
