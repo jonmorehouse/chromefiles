@@ -15,7 +15,11 @@
 [alias]
   # configuration
   cn = config --list
+
+  # browse shortcuts
   bb = browse
+  bi = browse --issues
+  b = browse
   
   # help command shortcut
   h = help
