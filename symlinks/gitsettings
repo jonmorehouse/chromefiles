@@ -90,9 +90,6 @@
   diffstat = diff --stat -r
   # playground
   q = !sh -c 'git pf 2>> /tmp/git &'
-  #q = "!q() { git "$@" 2>> /tmp/git; }; q "
-  #qq = "!q() { for i in {1..2};do echo \"TEST\"; sleep 2; done; };q ;"
-  #pq = !sh -c 'nohup git push "$@";'
 
 # useful for hub commands
 [github]
