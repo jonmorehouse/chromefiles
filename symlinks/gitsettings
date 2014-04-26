@@ -29,6 +29,7 @@
 
   # save current commit and ammend
   sa = commit -a --amend --no-edit 
+  am = commit --amend -m 
 
   # add helpers
   a = add
