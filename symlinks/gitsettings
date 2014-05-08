@@ -27,7 +27,6 @@
   cl = clone
   # clone into the public project repository list
   clp = !sh -c 'cd $HOME/.public && hub clone "$@"' -
-  cdp = !sh -c 
   in = init
 
   # save current commit and ammend
@@ -42,6 +41,9 @@
   s = status --short --branch
   # from http://fredkschott.com/post/2014/02/git-log-is-so-2005/
   lg = log --color --date=local --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+  # diff / changes
+  changes = diff --name-status -r
+  diffstat = diff --stat -r
 
   # push
   p = push
@@ -92,10 +94,6 @@
   pt = push --tags 
   th = help tag
 
-  # temp / trial
-  changes = diff --name-status -r
-  diffstat = diff --stat -r
-  # playground
   q = !sh -c 'git pf 2>> /tmp/git &'
 
   # legit mappings
