@@ -27,6 +27,7 @@
   cl = clone
   # clone into the public project repository list
   clp = !sh -c 'cd $HOME/.public && hub clone "$@"' -
+  cdp = !sh -c 
   in = init
 
   # save current commit and ammend
@@ -96,6 +97,16 @@
   diffstat = diff --stat -r
   # playground
   q = !sh -c 'git pf 2>> /tmp/git &'
+
+  # legit mappings
+  switch = !legit switch \"$@\"
+  branches = !legit branches
+  sprout = !legit sprout \"$@\"
+  unpublish = !legit unpublish \"$@\"
+  harvest = !legit harvest \"$@\"
+  sync = !legit sync \"$@\"
+  publish = !legit publish \"$@\"
+  graft = !legit graft \"$@\"
 
 # useful for hub commands
 [github]
