@@ -25,6 +25,8 @@
 
   # clone shortcut
   cl = clone
+  # clone into the public project repository list
+  clp = !sh -c 'cd $HOME/.public && hub clone "$@"' -
   in = init
 
   # save current commit and ammend
