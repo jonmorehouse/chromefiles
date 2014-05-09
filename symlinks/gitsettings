@@ -93,8 +93,7 @@
   tl = tag --list
   pt = push --tags 
   th = help tag
-
-  q = !sh -c 'git pf 2>> /tmp/git &'
+  save = !sh -c 'git sa && git pf 2>> /tmp/git &'
 
   # legit mappings
   switch = !legit switch \"$@\"
