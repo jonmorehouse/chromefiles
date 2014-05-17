@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'rake'
 gem 'personal-backlog'
 gem 't'
 gem 'cocoapods'
 gem 'tmuxinator'
+gem 'apiaryio'
 
 

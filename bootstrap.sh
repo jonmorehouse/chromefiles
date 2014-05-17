@@ -1,6 +1,5 @@
-#this is the main dotfile loader
-# in the future 
 directory=$HOME/dotfiles
+personal_directory=$HOME/.personal
 
 # specialized loader function
 function load {
@@ -25,7 +24,7 @@ files=(
 	$directory/helpers/load.sh #these are one liners -- generally will not have many shortcuts but more can be enabled for each segment
 
 	# initialize personal helpers as needed
-	$directory/personal/aliases.sh #include the proper directory shortcuts I have configured
+	$personal_directory/aliases.sh #include the proper directory shortcuts I have configured
 )
 
 # load each of the into our current shell
@@ -36,7 +35,7 @@ done
 
 # load all of our export settings into this shell
 # all exports are loaded up 
-for file in `ls $directory/personal/*.exports`
+for file in `ls $personal_directory/*.exports`
 do
 	\. $HOME/dotfiles/scripts/load_env_file $file
 done
